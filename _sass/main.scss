@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+// Customization
+
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+
+/*
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+// Update the blue shade, used for links
+$blue: #06bcef;
+// Add pink and its invert
+$pink: #ff8080;
+$pink-invert: #fff;
+// Update the sans-serif font family
+$family-sans-serif: "Helvetica", "Arial", sans-serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink;
+$primary-invert: $pink-invert;
+
+// 4. Import the rest of Bulma
+*/
+
+@import "../node_modules/bulma/bulma";
+
+// own css
+main.content{
+	margin: 52px 0 0 0 !important;
+}
+
+section.about {
+	min-height: 360px;
+	padding: 50px 40px;
+	background: #ffffff url("../imgs/overview-right.svg") no-repeat right bottom;
+}
+
+@media screen and (min-width: 769px) {
+	.about {
+		padding: 70px 200px;
+	}
+
+	.vc {
+		margin: 180px 0;
+	}
+}
+
+.is-left {
+	order: 1;
+}
+
+.section-header+.section-body {
+    margin-top: 2rem;
+}
+
+.box.is-borderless, .box.is-squared {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.section.is-alternative .title, .is-alternative.app-footer .title {
+    color: #0AAFC4;
+}
+
+.title.is-5 {
+    font-size: 1.25rem;
+}
+
+.title:not(:last-child), .subtitle:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.title {
+    color: #666;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+.title, .subtitle {
+    word-break: break-word;
+}
+
+.box.is-borderless, .box.is-squared {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.section, .app-footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.section, .app-footer {
+    position: relative;
+    padding: 3rem 1.5rem;
+    background-color: #fff;
+}
+
+.about {
+    margin: 0 auto;
+    max-width: 1020px;
+
+    .container {
+        padding: 120px 0 0 80px;
+
+        @media screen and (max-width: 769px) {
+            padding: 0 0 30px 50px;
+        }
+    }
+
+    .title {
+        font-size: 50px;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .subtitle p {
+        font-size: 24px;
+        color: #7f7f7f;
+    }
+
+    .button {
+        min-width: 100px;
+        border-radius: 50px;
+        padding: 10px 30px;
+        font-size: 20px;
+        line-height: 1.8em;
+        font-weight: 700;
+    }
+
+    .phone-slides {
+        height: 550px;
+        width: 305px;
+        padding: 0 0 0 40px;
+        background: #ffffff url(../imgs/phone_outline.png) no-repeat 40px 0;
+    }
+
+    .slicks {
+        width: 250px;
+        padding: 61px 0 0 14px;
+    }
+
+}
+
+#showcases {
+    background: #ffffff url(../imgs/overview-left.svg) no-repeat left;
+
+    h1 {
+        margin-bottom: 0;
+    }
+
+    img {
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 1px 10px 0px rgba(102,102,102,1);
+        -moz-box-shadow: 0px 1px 10px 0px rgba(102,102,102,1);
+        box-shadow: 0px 1px 10px 0px rgba(102,102,102,1);
+    }
+
+    .box {
+        background-color: transparent;
+    }
+
+    i {
+        fill: #0099e7;
+    }
+}
+
+#roadmap {
+    background-color: #ffaf24;
+    background-image: none;
+
+    .section-header {
+        margin-top: 50px;
+
+        i {
+            fill: #ff5b77;
+        }
+
+        .subtitle {
+            color: white;
+            font-weight: bold;
+        }
+    }
+
+
+    .timeline {
+          position: relative;
+          width: 100%;
+          margin: 50px auto;
+          font-size: 20px;
+    }
+
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: 5px;
+        background-color: #ff5b77;
+        top: 0px;
+        bottom: 0px;
+        left: 50%;
+        margin-left: 0px;
+        border-radius: 6px;
+        z-index: 5;
+    }
+
+    .container {
+        margin: 0;
+        padding: 20px 40px;
+        position: relative;
+        background-color: inherit;
+        width: 50%;
+        max-width: 600px;
+    }
+
+    .title {
+        color: #ff5b77;
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .left {
+        left: 25%;
+        margin-left: -80px;
+        text-align: right;
+        z-index: 10;
+    }
+
+    .right {
+        left: 40%;
+        z-index: 10;
+    }
+
+    .right::after {
+        left: -16px;
+    }
+
+    .content {
+        padding: 20px 30px;
+        background-color: white;
+        position: relative;
+        border-radius: 3px;
+        -webkit-box-shadow: 18px 23px 80px -23px rgba(0,0,0,0.44);
+        -moz-box-shadow: 18px 23px 80px -23px rgba(0,0,0,0.44);
+        box-shadow: 18px 23px 80px -23px rgba(0,0,0,0.44);
+    }
+
+    @media screen and (max-width: 600px) {
+        /* Place the timelime to the left */
+        .timeline::after {
+            left: 31px;
+        }
+
+        /* Full-width containers */
+        .container {
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom:20px;
+            padding-left: 70px;
+            padding-right: 25px;
+        }
+
+        /* Make sure that all arrows are pointing leftwards */
+        .container::before {
+            left: 60px;
+            border: medium solid white;
+            border-width: 10px 10px 10px 0;
+            border-color: transparent white transparent transparent;
+        }
+
+        /* Make sure all circles are at the same spot */
+        .left::after, .right::after {
+            left: 15px;
+        }
+
+        .left {
+            left: 0%;
+            margin-left: 0;
+            text-align: left;
+        }
+
+        /* Make all right containers behave like the left ones */
+        .right {
+            left: 0%;
+        }
+    }
+}
+
+.whitepaper:hover {
+    text-decoration:underline;
+    color: #3273dc;
+}
