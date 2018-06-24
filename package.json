@@ -1,32 +1,27 @@
 {
-  "name": "bulma-start",
-  "version": "0.0.2",
-  "description": "Start package for Bulma",
-  "keywords": [
-    "sass",
-    "bulma",
-    "css",
-    "start"
-  ],
-  "author": "Jeremy Thomas <bbxdesign@gmail.com> (http://jgthms.com)",
-  "license": "MIT",
-  "devDependencies": {
-    "autoprefixer": "^7.1.5",
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-es2015-ie": "^6.7.0",
-    "bulma": "^0.6.2",
-    "node-sass": "^4.5.3",
-    "postcss-cli": "^4.1.1"
+  "name": "coomiproject.github.io",
+  "version": "1.0.0",
+  "description": "https://coomiproject.github.io/",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
   },
   "scripts": {
-    "css-deploy": "npm run css-build && npm run css-postcss",
-    "css-build": "node-sass _sass/main.scss css/main.css",
-    "css-postcss": "postcss --use autoprefixer --output css/main.css css/main.css",
-    "css-watch": "npm run css-build -- --watch",
-    "deploy": "npm run css-deploy && npm run js-build",
-    "js-build": "babel _javascript --out-dir lib",
-    "js-watch": "npm run js-build -- --watch",
-    "start": "npm run css-watch | npm run js-watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoomiProject/CoomiProject.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoomiProject/CoomiProject.github.io/issues"
+  },
+  "homepage": "https://github.com/CoomiProject/CoomiProject.github.io#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "js-yaml": "^3.12.0",
+    "pug": "^2.0.3"
   }
 }

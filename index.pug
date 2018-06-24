@@ -1,0 +1,194 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title #{title}
+    link(rel='stylesheet', href='/css/main.css?1')
+    link(rel='stylesheet', type='text/css', href='https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css')
+  body.has-navbar-fixed-top
+    nav.navbar.is-fixed-top.has-shadow
+      .navbar-brand
+        a.navbar-item(href='/')
+          img(src='/imgs/logo_main.png', alt='coomi', width='112', height='28')
+        .navbar-burger.burger(data-target='navbar-menu')
+          span
+          span
+          span
+      #navbar-menu.navbar-menu
+        .navbar-start
+          a.navbar-item(href='https://coomi.io/')
+            | #{home}
+        .navbar-end
+          .navbar-item
+            a.button.is-danger(href='#about')
+              span #{about}
+          .navbar-item
+            a.button.is-info(href='#showcases')
+              span #{showcase}
+          .navbar-item
+            a.button.is-warning(href='#roadmap')
+              span  #{road_map}
+          .navbar-item
+            a.button.is-success(href='#whitepaper')
+              span #{white_paper}
+    main.content
+      section#about.section.about
+        .columns
+          .column.is-half
+            .container.has-text-left
+              h1.title.is-spaced.is-bold.has-tint  Coomi
+              .subtitle
+                p
+                  | #{subtitle_1}
+                  br
+                  | #{subtitle_2}
+              a.button.is-success(href='#whitepaper')  #{white_paper}
+          .column.is-half
+            .phone-slides
+              .slicks
+                div
+                  img(src='imgs/slide1.jpg?1', alt='slide1', width='345', height='600')
+                div
+                  img(src='imgs/slide2.jpg?1', alt='slide1', width='345', height='600')
+                div
+                  img(src='imgs/slide3.jpg?1', alt='slide1', width='345', height='600')
+                div
+                  img(src='imgs/slide4.jpg?1', alt='slide1', width='345', height='600')
+                div
+                  img(src='imgs/slide5.jpg?1', alt='slide1', width='345', height='600')
+                div
+                  img(src='imgs/slide6.jpg?1', alt='slide1', width='345', height='600')
+      section#showcases.section.is-timeline.is-alternative
+        .container.has-text-centered
+          header.section-header
+            h1.title.is-spaced.is-bold.has-tint
+              i.icon.icon-arrow-down
+                svg(version='1.1', xmlns='https://www.w3.org/2000/svg', xmlns:xlink='https://www.w3.org/1999/xlink', width='32', height='32', viewbox='0 0 32 32')
+                  path(d='M27.414 19.414l-10 10c-0.781 0.781-2.047 0.781-2.828 0l-10-10c-0.781-0.781-0.781-2.047 0-2.828s2.047-0.781 2.828 0l6.586 6.586v-19.172c0-1.105 0.895-2 2-2s2 0.895 2 2v19.172l6.586-6.586c0.39-0.39 0.902-0.586 1.414-0.586s1.024 0.195 1.414 0.586c0.781 0.781 0.781 2.047 0 2.828z')
+              .subtitle
+                p #{showcase_detail}
+          .section-body
+            .columns.is-centered
+              .column.is-8
+                .columns
+                  .column.is-6.is-right
+                    .box.is-transparent.is-borderless.vc
+                      .title.is-3.is-spaced  点石成金 
+                      p.subtitle.is-4  你对事物的判断和见解就是价值 
+                  .column.is-6.is-left
+                    .box.is-transparent.is-borderless
+                      img(src='imgs/pickup0.jpg?1', width='300', height='600')
+                .columns
+                  .column.is-6.is-left
+                    .box.is-transparent.is-borderless.vc
+                      .title.is-3.is-spaced  搜你所想 
+                      p.subtitle.is-4  熟人关系链相连的可信口碑 
+                  .column.is-6.is-right
+                    .box.is-transparent.is-borderless
+                      img(src='imgs/pickup1.jpg?1', width='300', height='600')
+                .columns
+                  .column.is-6.is-right
+                    .box.is-transparent.is-borderless.vc
+                      .title.is-3.is-spaced  朋友圈 
+                      p.subtitle.is-4  与世界分享你的判断和见解 
+                  .column.is-6.is-left
+                    .box.is-transparent.is-borderless
+                      img(src='imgs/pickup2.jpg?1', width='300', height='600')
+                .columns
+                  .column.is-6.is-left
+                    .box.is-transparent.is-borderless.vc
+                      .title.is-3.is-spaced  个人中心 
+                      p.subtitle.is-4  好友货币资金信息，随手掌握 
+                  .column.is-6.is-right
+                    .box.is-transparent.is-borderless
+                      img(src='imgs/pickup3.jpg?1', width='300', height='600')
+      section#roadmap.hero.is-medium.is-warning.is-bold
+        header.section-header.has-text-centered
+          h1.title.is-spaced.is-bold.has-tint
+            i.icon.icon-arrow-down
+              svg(version='1.1', xmlns='https://www.w3.org/2000/svg', xmlns:xlink='https://www.w3.org/1999/xlink', width='32', height='32', viewbox='0 0 32 32')
+                path(d='M27.414 19.414l-10 10c-0.781 0.781-2.047 0.781-2.828 0l-10-10c-0.781-0.781-0.781-2.047 0-2.828s2.047-0.781 2.828 0l6.586 6.586v-19.172c0-1.105 0.895-2 2-2s2 0.895 2 2v19.172l6.586-6.586c0.39-0.39 0.902-0.586 1.414-0.586s1.024 0.195 1.414 0.586c0.781 0.781 0.781 2.047 0 2.828z')
+            .subtitle
+              p  发展计划 
+        .timeline
+          .container.right
+            .content
+              p.title 2017年 9-11月
+              p 提出建设 Coomi 平台，创建团队
+          .container.left
+            .content
+              p.title 2018年 ~
+          .container.right
+            .content
+              p.title 1-3月
+              p 市场调研，需求分析和市场发展决策确立
+          .container.left
+            .content
+              p.title 4-5月
+              p 产品设计，算法论证与设计
+          .container.left
+            .content
+              p.title 6-8月
+              p 募资
+          .container.right
+            .content
+              p.title 9-11月
+              p 完成底层架构设计和开发，完成平台基础功能开发
+          .container.left
+            .content
+              p.title 12月
+              p 小规模运营，邀请相关业内人士进行测试使用
+          .container.right
+            .content
+              p.title 2019年
+              p 平台完成开发，测试和上线，对所有用户开放，并开启正式运营
+      section#whitepaper.hero.is-medium.is-primary.is-bold
+        .hero-body
+          .container.has-text-centered
+            h1.title
+              a.is-inline-block.whitepaper(href='assets/Coomi-WhitePaper-V1.0.pdf', title='whitepaper')  Coomi 白皮书 v1.0 已发布！
+            h2.subtitle
+    footer.app-footer
+      .container
+        .columns.is-multiline.is-mobile
+          .column.is-12-mobile.is-4-tablet
+            .closure
+              a.is-inline-block(href='/', title='Gustav')
+                img(src='/imgs/logo_full_sm.png', alt='coomi', width='112', height='28')
+              p  © 2018 Commi Technologies, Inc. 
+          .column.is-12-mobile.is-2-tablet
+            .menu
+          .column.is-12-mobile.is-2-tablet
+          .column.is-12-mobile.is-2-tablet
+            .menu
+              h3.menu-label  About us 
+              ul.menu-list
+                li
+                  a(href='/imprint') Imprint
+                li
+                  a(href='mailto:team@commi.io') Press
+                li
+                  a(href='/team') Team
+                li
+                  a(href='/privacy.pdf', target='_blank') Privacy Policy
+                li
+                  a(href='/terms.pdf', target='_blank') Terms of Use
+          .column.is-12-mobile.is-2-tablet
+            .menu
+              h3.menu-label  Connect 
+              ul.menu-list
+                li
+                  a(href='https://twitter.com/?', target='_blank', title='Coomi on Twitter') Twitter
+                li
+                  a(href='https://www.facebook.com/?', target='_blank', title='Coomi on Facebook') Facebook
+                li
+                  a(href='https://www.instagram.com/?', target='_blank', title='Coomi on Instagram') Instagram
+                li
+                  a(href='https://www.linkedin.com/company/?', target='_blank', title='Coomi on LinkedIn') LinkedIn
+    script(type='text/javascript', src='https://code.jquery.com/jquery-1.11.0.min.js')
+    script(type='text/javascript', src='https://code.jquery.com/jquery-migrate-1.2.1.min.js')
+    script(type='text/javascript', src='https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js')
+    script(type='text/javascript', src='/lib/smooth-scroll.min.js')
+    script(type='text/javascript', src='/lib/main.js')
