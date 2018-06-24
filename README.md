@@ -1,8 +1,5 @@
-# coomi-web
-Coomi's web
-
-## Access URL
-https://coomi.io/
-
-## Github Page Url @Master branch
+## Github Page @Master branch
 https://coomiproject.github.io/
+
+## Home Page
+https://coomi.io/
