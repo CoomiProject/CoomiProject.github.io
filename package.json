@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "build-css": "node-sass --include-path _scss/main.scss css/main.css"
+    "build-css": "node-sass --include-path scss _scss/main.scss css/main.css"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/CoomiProject/CoomiProject.github.io#readme",
   "dependencies": {
+    "bulma": "^0.7.1",
     "fs": "0.0.1-security",
     "js-yaml": "^3.12.0",
     "node-sass": "^4.9.0",

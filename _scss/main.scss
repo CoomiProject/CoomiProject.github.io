@@ -139,7 +139,9 @@ section.about {
         height: 550px;
         width: 305px;
         padding: 0 0 0 40px;
-        background: #ffffff url(../imgs/phone_outline.png) no-repeat 40px 0;
+        background: url(/imgs/phone_outline.png);
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
     .slicks {
@@ -150,7 +152,7 @@ section.about {
 }
 
 #showcases {
-    background: #ffffff url(../imgs/overview-left.svg) no-repeat left;
+    background: #ffffff url(/imgs/overview-left.svg) no-repeat left;
 
     h1 {
         margin-bottom: 0;
