@@ -6607,7 +6607,9 @@ section.about {
     height: 550px;
     width: 305px;
     padding: 0 0 0 40px;
-    background: #ffffff url(../imgs/phone_outline.png) no-repeat 40px 0; }
+    background: url(../imgs/phone_outline.png);
+    background-repeat: no-repeat;
+    background-size: contain; }
   .about .slicks {
     width: 250px;
     padding: 61px 0 0 14px; }
