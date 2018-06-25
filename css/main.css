@@ -6522,7 +6522,7 @@ section.about {
   .about .phone-slides {
     height: 550px;
     width: 305px;
-    padding: 0 0 0 40px;
+    padding: 0 0 0 0;
     background: url(/imgs/phone_outline.png);
     background-repeat: no-repeat;
     background-size: contain;
