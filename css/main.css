@@ -6525,7 +6525,8 @@ section.about {
     padding: 0 0 0 40px;
     background: url(/imgs/phone_outline.png);
     background-repeat: no-repeat;
-    background-size: contain; }
+    background-size: contain;
+    background-position: center; }
   .about .slicks {
     width: 250px;
     padding: 61px 0 0 14px; }
