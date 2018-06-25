@@ -1,4 +1,4 @@
-
+/*jshint esversion: 6 */
 const fs = require('fs');
 const pug = require('pug');
 const yaml = require('js-yaml');
