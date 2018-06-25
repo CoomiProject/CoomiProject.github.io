@@ -7,5 +7,6 @@ https://coomi.io/
 ## Compile
 ```
 npm install
-node index.js
+npm run build-css
+npm run build-html
 ```
