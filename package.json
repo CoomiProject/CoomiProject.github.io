@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "build-css": "node-sass --include-path scss _scss/main.scss css/main.css"
+    "build-css": "node-sass --include-path scss _scss/main.scss css/main.css",
+    "build-html": "node index.js"
   },
   "repository": {
     "type": "git",
