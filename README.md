@@ -1,11 +1,14 @@
-## Github Page @Master branch
-https://coomiproject.github.io/
+# Home Page
 
-## Home Page
 https://coomi.io/
 
-## Compile
-```
+## Github Page @Master branch
+
+https://coomiproject.github.io/
+
+## BUILD
+
+```shell
 npm install
 npm run build-css
 npm run build-html
