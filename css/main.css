@@ -6445,7 +6445,7 @@ main.content {
 section.about {
   min-height: 360px;
   padding: 50px 40px;
-  background: #ffffff url("../imgs/overview-right.svg") no-repeat right bottom; }
+  background: #ffffff url(/imgs/overview-right.svg) no-repeat right bottom; }
 
 @media screen and (min-width: 769px) {
   .about {
