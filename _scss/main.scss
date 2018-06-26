@@ -130,7 +130,7 @@ section.about {
     .phone-slides {
         height: 550px;
         width: 305px;
-        padding: 0 0 0 0;
+        margin: auto;
         background: url(/imgs/phone_outline.png);
         background-repeat: no-repeat;
         background-size: contain;
@@ -139,7 +139,7 @@ section.about {
 
     .slicks {
         width: 250px;
-        padding: 61px 0 0 14px;
+        margin: auto;
     }
 
 }

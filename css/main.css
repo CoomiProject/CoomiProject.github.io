@@ -6500,11 +6500,6 @@ section.about {
 .about {
   margin: 0 auto;
   max-width: 1020px; }
-  .about .container {
-    padding: 120px 0 0 80px; }
-    @media screen and (max-width: 769px) {
-      .about .container {
-        padding: 0 0 30px 50px; } }
   .about .title {
     font-size: 50px;
     font-weight: bold;
@@ -6522,14 +6517,14 @@ section.about {
   .about .phone-slides {
     height: 550px;
     width: 305px;
-    padding: 0 0 0 0;
+    margin: auto;
     background: url(/imgs/phone_outline.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center; }
   .about .slicks {
     width: 250px;
-    padding: 61px 0 0 14px; }
+    margin: auto; }
 
 #showcases {
   background: #ffffff url(/imgs/overview-left.svg) no-repeat left; }
