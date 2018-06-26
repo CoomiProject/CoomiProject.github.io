@@ -107,14 +107,6 @@ section.about {
     margin: 0 auto;
     max-width: 1020px;
 
-    .container {
-        padding: 120px 0 0 80px;
-
-        @media screen and (max-width: 769px) {
-            padding: 0 0 30px 50px;
-        }
-    }
-
     .title {
         font-size: 50px;
         font-weight: bold;
