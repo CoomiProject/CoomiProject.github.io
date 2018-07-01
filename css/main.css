@@ -6522,12 +6522,6 @@ section.about {
       width: 280px;
       top: 50px;
       margin: 0 auto; }
-    #about .phone-slides #phone-frame {
-      position: absolute;
-      width: 300px;
-      top: 0px;
-      left: 50%;
-      transform: translate(-50%); }
 
 #showcases {
   background: #ffffff url(/imgs/overview-left.svg) no-repeat left; }
