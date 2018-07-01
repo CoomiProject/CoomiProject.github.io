@@ -6505,14 +6505,6 @@ section.about {
     font-size: 20px;
     line-height: 1.8em;
     font-weight: 700; }
-  .about .phone-slides {
-    height: 550px;
-    width: 305px;
-    margin: auto;
-    background: url(/imgs/phone_outline.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center; }
   .about .slicks {
     width: 250px;
     margin: auto; }
