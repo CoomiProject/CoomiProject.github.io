@@ -6914,27 +6914,6 @@ section.about {
   padding: 3rem 1.5rem;
   background-color: #fff; }
 
-.about {
-  margin: 0 auto;
-  max-width: 1020px; }
-  .about .title {
-    font-size: 50px;
-    font-weight: bold;
-    color: #000; }
-  .about .subtitle p {
-    font-size: 24px;
-    color: #7f7f7f; }
-  .about .button {
-    min-width: 100px;
-    border-radius: 50px;
-    padding: 10px 30px;
-    font-size: 20px;
-    line-height: 1.8em;
-    font-weight: 700; }
-
-.slick-slide img {
-  margin: 0 auto; }
-
 #about {
   background: #ffffff url(../imgs/overview-right.svg) no-repeat right bottom; }
   #about .phone-slides {
