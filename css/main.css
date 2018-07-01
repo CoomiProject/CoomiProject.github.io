@@ -6511,8 +6511,11 @@ section.about {
 
 #about {
   background: #ffffff url(../imgs/overview-right.svg) no-repeat right bottom; }
-  #about .slick-slide img {
+  #about .slicks {
+    width: 300px;
     margin: 0 auto; }
+    #about .slicks img {
+      margin: 0 auto; }
 
 #showcases {
   background: #ffffff url(/imgs/overview-left.svg) no-repeat left; }

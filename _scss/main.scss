@@ -125,8 +125,10 @@ section.about {
 
 #about {
     background: #ffffff url(../imgs/overview-right.svg) no-repeat right bottom;
-    
-    .slick-slide {
+
+    .slicks {
+        width: 300px;
+        margin: 0 auto;
         img {
             margin: 0 auto;
         }
