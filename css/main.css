@@ -6865,33 +6865,19 @@ label.panel-block {
         padding: 1em 2em 0 0;
         text-align: right; }
 
-main.content {
-  margin: 52px 0 0 0 !important; }
-
-section.about {
-  min-height: 360px;
-  padding: 50px 40px;
-  background: #ffffff url(/imgs/overview-right.svg) no-repeat right bottom; }
-
 @media screen and (min-width: 769px) {
   .about {
     padding: 70px 200px; }
   .vc {
     margin: 180px 0; } }
 
-.is-left {
-  order: 1; }
-
-.section-header + .section-body {
-  margin-top: 2rem; }
-
 .box.is-borderless, .box.is-squared {
   border: none;
   border-radius: 0;
   box-shadow: none; }
 
-.section.is-alternative .title, .is-alternative.app-footer .title {
-  color: #0AAFC4; }
+.section {
+  background-color: transparent; }
 
 .title:not(:last-child), .subtitle:not(:last-child) {
   margin-bottom: 1.5rem; }
@@ -6905,15 +6891,6 @@ section.about {
   border-radius: 0;
   box-shadow: none; }
 
-.section, .app-footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem; }
-
-.section, .app-footer {
-  position: relative;
-  padding: 3rem 1.5rem;
-  background-color: #fff; }
-
 .MainHero {
   position: relative; }
   .MainHero #angles {
@@ -6926,19 +6903,17 @@ section.about {
     box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
     background: linear-gradient(150deg, #9DC73A 15%, #64C65D 50%, #54AA4E 94%); }
 
-#about {
-  background: #ffffff url(../imgs/overview-right.svg) no-repeat right bottom; }
-  #about .phone-slides {
-    background-image: url(/imgs/iPhone.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-    width: 300px;
-    height: 610px;
+#about .phone-slides {
+  background-image: url(/imgs/iPhone.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 300px;
+  height: 610px;
+  margin: 0 auto; }
+  #about .phone-slides .slicks {
+    width: 280px;
+    top: 50px;
     margin: 0 auto; }
-    #about .phone-slides .slicks {
-      width: 280px;
-      top: 50px;
-      margin: 0 auto; }
 
 #showcases {
   background: #FBFBFD url(/imgs/overview-left.svg) no-repeat left; }
