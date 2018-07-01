@@ -128,20 +128,20 @@ section.about {
 
     .phone-slides {
         position: relative;
-        width: 250px;
+        width: 300px;
         margin: 0 auto;
 
         .slicks {
-            width: 250px;
+            width: 300px;
             margin: 0 auto;
             img {
                 margin: 0 auto;
             }
         }
 
-        .phone-frame {
+        #phone-frame {
             position: absolute;
-            width: 250px;
+            width: 300px;
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
