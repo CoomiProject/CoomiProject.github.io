@@ -83,6 +83,14 @@ $primary-invert: $pink-invert;
     }
 }
 #about {
+    .title {
+        color: #FFFFFF
+    }
+
+    .subtitle {
+        color: #FBFBFD;
+    }
+
     .phone-slides {
         background-image: url(/imgs/iPhone.png);
         background-repeat: no-repeat;
