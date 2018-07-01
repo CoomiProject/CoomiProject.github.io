@@ -6509,8 +6509,10 @@ section.about {
 .slick-slide img {
   margin: 0 auto; }
 
-#about .slick-slide img {
-  margin: 0 auto; }
+#about {
+  background: #ffffff url(../imgs/overview-right.svg) no-repeat right bottom; }
+  #about .slick-slide img {
+    margin: 0 auto; }
 
 #showcases {
   background: #ffffff url(/imgs/overview-left.svg) no-repeat left; }
