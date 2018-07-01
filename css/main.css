@@ -6514,6 +6514,7 @@ section.about {
   #about .phone-slides {
     position: relative;
     width: 300px;
+    top: 15px;
     margin: 0 auto; }
     #about .phone-slides .slicks {
       width: 280px;
@@ -6523,9 +6524,9 @@ section.about {
     #about .phone-slides #phone-frame {
       position: absolute;
       width: 300px;
+      top: 0;
       left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%); }
+      transform: translate(-50%); }
 
 #showcases {
   background: #ffffff url(/imgs/overview-left.svg) no-repeat left; }

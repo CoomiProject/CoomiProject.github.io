@@ -129,6 +129,7 @@ section.about {
     .phone-slides {
         position: relative;
         width: 300px;
+        top: 15px;
         margin: 0 auto;
 
         .slicks {
@@ -142,9 +143,9 @@ section.about {
         #phone-frame {
             position: absolute;
             width: 300px;
+            top: 0;
             left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
+            transform: translate(-50%);
         }
     }
 }
