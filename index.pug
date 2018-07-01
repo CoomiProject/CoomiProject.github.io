@@ -31,30 +31,32 @@ html
                   a.navbar-item(href="/en") English
                   a.navbar-item(href="/ja") 日本語
     main.content
-      section#about.section.is-hero
-        .container
-          .columns.is-vcentered
-            .column.is-6
-              .section-header
-                h1.title.is-1.is-spaced.is-bold.has-tint Coomi
-                p.subtitle.is-3 #{subtitle}
-                .control
-                  a.button.is-success.is-rounded.is-medium(href='assets/Coomi-WhitePaper-V1.0.pdf') #{white_paper}
-            .column.is-6.is-vcentered
-              .phone-slides
-                .slicks
-                  div
-                    img(src='/imgs/slide0.png?1', alt='slide0')
-                  div
-                    img(src='/imgs/slide1.png?1', alt='slide1')
-                  div
-                    img(src='/imgs/slide2.png?1', alt='slide2')
-                  div
-                    img(src='/imgs/slide3.png?1', alt='slide3')
-                  div
-                    img(src='/imgs/slide4.png?1', alt='slide4')
-                  div
-                    img(src='/imgs/slide5.png?1', alt='slide5')              
+      .MainHero
+        #angles
+        section#about.section.is-hero
+          .container
+            .columns.is-vcentered
+              .column.is-6
+                .section-header
+                  h1.title.is-1.is-spaced.is-bold.has-tint Coomi
+                  p.subtitle.is-3 #{subtitle}
+                  .control
+                    a.button.is-success.is-rounded.is-medium(href='assets/Coomi-WhitePaper-V1.0.pdf') #{white_paper}
+              .column.is-6.is-vcentered
+                .phone-slides
+                  .slicks
+                    div
+                      img(src='/imgs/slide0.png?1', alt='slide0')
+                    div
+                      img(src='/imgs/slide1.png?1', alt='slide1')
+                    div
+                      img(src='/imgs/slide2.png?1', alt='slide2')
+                    div
+                      img(src='/imgs/slide3.png?1', alt='slide3')
+                    div
+                      img(src='/imgs/slide4.png?1', alt='slide4')
+                    div
+                      img(src='/imgs/slide5.png?1', alt='slide5')              
       section#showcases.section.is-timeline.is-alternative
         .container.has-text-centered
           header.section-header
