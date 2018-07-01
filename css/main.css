@@ -6514,17 +6514,15 @@ section.about {
   #about .phone-slides {
     position: relative;
     width: 300px;
-    top: 15px;
     margin: 0 auto; }
     #about .phone-slides .slicks {
       width: 280px;
+      top: 15px;
       margin: 0 auto; }
-      #about .phone-slides .slicks img {
-        margin: 0 auto; }
     #about .phone-slides #phone-frame {
       position: absolute;
       width: 300px;
-      top: 0;
+      top: 0px;
       left: 50%;
       transform: translate(-50%); }
 
