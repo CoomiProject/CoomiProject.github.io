@@ -6505,9 +6505,6 @@ section.about {
     font-size: 20px;
     line-height: 1.8em;
     font-weight: 700; }
-  .about .slicks {
-    width: 250px;
-    margin: auto; }
 
 #showcases {
   background: #ffffff url(/imgs/overview-left.svg) no-repeat left; }
