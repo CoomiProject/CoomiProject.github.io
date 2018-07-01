@@ -24,18 +24,12 @@ html
               a.navbar-item(href='#showcases') #{showcase}
               a.navbar-item(href='#roadmap') #{road_map}
               a.navbar-item(href='#whitepaper') #{white_paper}
-              .navbar-item
-                .dropdown
-                  .dropdown-trigger
-                    button.button(aria-haspopup='true' aria-controls='dropdown-menu')
-                      span #{language}
-                      span.icon.is-small
-                        i.fas.fa-angle-down(aria-hidden='true')
-                  #dropdown-menu.dropdown-menu(role='menu')
-                    .dropdown-content
-                      a.dropdown-item(href="/zh") 中文
-                      a.dropdown-item(href="/en") English
-                      a.dropdown-item(href="/ja") 日本語
+              .navbar-item.has-dropdown
+                a.navbar-link #{language}
+                .navbar-dropdown
+                  a.navbar-item(href="/zh") 中文
+                  a.navbar-item(href="/en") English
+                  a.navbar-item(href="/ja") 日本語
     main.content
       section#about.section.is-hero
         .container
