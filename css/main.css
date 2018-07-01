@@ -6514,13 +6514,13 @@ section.about {
   #about .phone-slides {
     background-image: url(/imgs/iPhone.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center top;
     width: 300px;
+    height: 610px;
     margin: 0 auto; }
     #about .phone-slides .slicks {
       width: 280px;
-      top: 18px;
+      top: 50px;
       margin: 0 auto; }
     #about .phone-slides #phone-frame {
       position: absolute;

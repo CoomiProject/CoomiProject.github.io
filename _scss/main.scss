@@ -129,14 +129,14 @@ section.about {
     .phone-slides {
         background-image: url(/imgs/iPhone.png);
         background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center top; 
+        background-position: center top;
         width: 300px;
+        height: 610px;
         margin: 0 auto;
 
         .slicks {
             width: 280px;
-            top: 18px;
+            top: 50px;
             margin: 0 auto;
         }
 
