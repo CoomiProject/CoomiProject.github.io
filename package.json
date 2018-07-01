@@ -22,6 +22,7 @@
   "homepage": "https://github.com/CoomiProject/CoomiProject.github.io#readme",
   "dependencies": {
     "bulma": "^0.7.1",
+    "bulma-extensions": "^2.2.1",
     "fs": "0.0.1-security",
     "js-yaml": "^3.12.0",
     "node-sass": "^4.9.0",
