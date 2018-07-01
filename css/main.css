@@ -6511,11 +6511,21 @@ section.about {
 
 #about {
   background: #ffffff url(../imgs/overview-right.svg) no-repeat right bottom; }
-  #about .slicks {
-    width: 300px;
+  #about .phone-slides {
+    position: relative;
+    width: 250px;
     margin: 0 auto; }
-    #about .slicks img {
+    #about .phone-slides .slicks {
+      width: 250px;
       margin: 0 auto; }
+      #about .phone-slides .slicks img {
+        margin: 0 auto; }
+    #about .phone-slides .phone-frame {
+      position: absolute;
+      width: 250px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%); }
 
 #showcases {
   background: #ffffff url(/imgs/overview-left.svg) no-repeat left; }

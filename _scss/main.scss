@@ -126,13 +126,31 @@ section.about {
 #about {
     background: #ffffff url(../imgs/overview-right.svg) no-repeat right bottom;
 
-    .slicks {
-        width: 300px;
+    .phone-slides {
+        position: relative;
+        width: 250px;
         margin: 0 auto;
-        img {
+
+        .slicks {
+            width: 250px;
             margin: 0 auto;
+            img {
+                margin: 0 auto;
+            }
+        }
+
+        .phone-frame {
+            position: absolute;
+            width: 250px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
     }
+
+
+
+
 }
 
 #showcases {
