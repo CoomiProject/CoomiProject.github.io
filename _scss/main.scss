@@ -123,6 +123,18 @@ section.about {
     }
 }
 
+#about {
+    .slick-slide {
+        img {
+            margin: 0 auto;
+        }
+    }
+
+    .control {
+        text-align: center;
+    }
+}
+
 #showcases {
     background: #ffffff url(/imgs/overview-left.svg) no-repeat left;
 
