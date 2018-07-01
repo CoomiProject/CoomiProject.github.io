@@ -20,18 +20,10 @@ html
               span
           #navbar-menu.navbar-menu
             .navbar-end
-              .navbar-item
-                a.button.is-danger(href='#about')
-                  span #{about}
-              .navbar-item
-                a.button.is-info(href='#showcases')
-                  span #{showcase}
-              .navbar-item
-                a.button.is-warning(href='#roadmap')
-                  span #{road_map}
-              .navbar-item
-                a.button.is-success(href='#whitepaper')
-                  span #{white_paper}
+              a.navbar-item(href='#about') #{about}
+              a.navbar-item(href='#showcases') #{showcase}
+              a.navbar-item(href='#roadmap') #{road_map}
+              a.navbar-item(href='#whitepaper') #{white_paper}
               .navbar-item
                 .select
                   select#language
@@ -42,10 +34,10 @@ html
       section#about.section.is-hero
         .container
           .columns.is-vcentered
-            .column.is-6.is-5-fullhd.is-offset-1-fullhd
+            .column.is-6.is-5-fullhd.is-offset-2-fullhd
               .section-header
                 h1.title.is-spaced.is-bold.has-tint Coomi
-                h2.subtitle
+                p.subtitle
                   | #{subtitle_1}
                   br
                   | #{subtitle_2}
