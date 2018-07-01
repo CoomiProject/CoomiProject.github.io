@@ -6512,7 +6512,10 @@ section.about {
 #about {
   background: #ffffff url(../imgs/overview-right.svg) no-repeat right bottom; }
   #about .phone-slides {
-    position: relative;
+    background-image: url(/imgs/iPhone.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
     width: 300px;
     margin: 0 auto; }
     #about .phone-slides .slicks {
