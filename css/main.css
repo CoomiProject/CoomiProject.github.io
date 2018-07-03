@@ -6913,22 +6913,29 @@ label.panel-block {
   background-image: url(/imgs/iPhone.png);
   background-repeat: no-repeat;
   background-position: center top;
-  width: 300px;
+  max-width: 300px;
   height: 610px;
   margin: 0 auto; }
   #about .phone-slides .slicks {
-    width: 280px;
+    max-width: 280px;
     top: 50px;
     margin: 0 auto; }
 
-#showcases img {
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 1px 10px 0px #666666;
-  -moz-box-shadow: 0px 1px 10px 0px #666666;
-  box-shadow: 0px 1px 10px 0px #666666; }
-
-#showcases .box {
-  background-color: transparent; }
+#showcases {
+  background-color: #fafafa; }
+  #showcases img {
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 10px 0px #666666;
+    -moz-box-shadow: 0px 1px 10px 0px #666666;
+    box-shadow: 0px 1px 10px 0px #666666; }
+  #showcases .card {
+    background-color: transparent;
+    box-shadow: 0 0 0;
+    text-align: center; }
+    #showcases .card .card-image {
+      margin-bottom: 20px; }
+    #showcases .card .subtitle {
+      text-align: left; }
 
 #roadmap {
   background: #FFFFFF; }

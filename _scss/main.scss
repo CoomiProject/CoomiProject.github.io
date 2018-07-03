@@ -95,12 +95,12 @@ $primary-invert: $pink-invert;
         background-image: url(/imgs/iPhone.png);
         background-repeat: no-repeat;
         background-position: center top;
-        width: 300px;
+        max-width: 300px;
         height: 610px;
         margin: 0 auto;
 
         .slicks {
-            width: 280px;
+            max-width: 280px;
             top: 50px;
             margin: 0 auto;
         }
@@ -108,6 +108,8 @@ $primary-invert: $pink-invert;
 }
 
 #showcases {
+    background-color: #fafafa;
+
     img {
         border-radius: 5px;
         -webkit-box-shadow: 0px 1px 10px 0px rgba(102,102,102,1);
@@ -115,8 +117,18 @@ $primary-invert: $pink-invert;
         box-shadow: 0px 1px 10px 0px rgba(102,102,102,1);
     }
 
-    .box {
+    .card {
         background-color: transparent;
+        box-shadow: 0 0 0;
+        text-align: center;
+
+        .card-image {
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            text-align: left;
+        }
     }
 }
 
