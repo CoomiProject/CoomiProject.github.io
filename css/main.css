@@ -6921,9 +6921,6 @@ label.panel-block {
     top: 50px;
     margin: 0 auto; }
 
-#showcases h1 {
-  margin-bottom: 0; }
-
 #showcases img {
   border-radius: 5px;
   -webkit-box-shadow: 0px 1px 10px 0px #666666;
@@ -6932,9 +6929,6 @@ label.panel-block {
 
 #showcases .box {
   background-color: transparent; }
-
-#showcases i {
-  fill: #0099e7; }
 
 #roadmap {
   background: #FFFFFF; }

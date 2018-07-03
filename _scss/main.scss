@@ -108,10 +108,6 @@ $primary-invert: $pink-invert;
 }
 
 #showcases {
-    h1 {
-        margin-bottom: 0;
-    }
-
     img {
         border-radius: 5px;
         -webkit-box-shadow: 0px 1px 10px 0px rgba(102,102,102,1);
@@ -121,10 +117,6 @@ $primary-invert: $pink-invert;
 
     .box {
         background-color: transparent;
-    }
-
-    i {
-        fill: #0099e7;
     }
 }
 
