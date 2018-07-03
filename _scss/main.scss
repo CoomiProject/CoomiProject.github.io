@@ -110,13 +110,6 @@ $primary-invert: $pink-invert;
 #showcases {
     background-color: #fafafa;
 
-    img {
-        border-radius: 5px;
-        -webkit-box-shadow: 0px 1px 10px 0px rgba(102,102,102,1);
-        -moz-box-shadow: 0px 1px 10px 0px rgba(102,102,102,1);
-        box-shadow: 0px 1px 10px 0px rgba(102,102,102,1);
-    }
-
     .card {
         background-color: transparent;
         box-shadow: 0 0 0;

@@ -6923,11 +6923,6 @@ label.panel-block {
 
 #showcases {
   background-color: #fafafa; }
-  #showcases img {
-    border-radius: 5px;
-    -webkit-box-shadow: 0px 1px 10px 0px #666666;
-    -moz-box-shadow: 0px 1px 10px 0px #666666;
-    box-shadow: 0px 1px 10px 0px #666666; }
   #showcases .card {
     background-color: transparent;
     box-shadow: 0 0 0;
