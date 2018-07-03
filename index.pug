@@ -56,8 +56,8 @@ html
                       img(src='/imgs/slide4.png?1', alt='slide4')
                     div
                       img(src='/imgs/slide5.png?1', alt='slide5')              
-      section#showcases.section.is-timeline.is-alternative
-        .container.has-text-centered
+      section#showcases.section
+        .container
           header.section-header
             h1.title.is-spaced.is-bold.has-tint
               i.icon.icon-arrow-down
@@ -65,41 +65,35 @@ html
                   path(d='M27.414 19.414l-10 10c-0.781 0.781-2.047 0.781-2.828 0l-10-10c-0.781-0.781-0.781-2.047 0-2.828s2.047-0.781 2.828 0l6.586 6.586v-19.172c0-1.105 0.895-2 2-2s2 0.895 2 2v19.172l6.586-6.586c0.39-0.39 0.902-0.586 1.414-0.586s1.024 0.195 1.414 0.586c0.781 0.781 0.781 2.047 0 2.828z')
               .subtitle
                 p #{detail}
-          .section-body
-            .columns.is-centered
-              .column.is-8
-                .columns
-                  .column.is-6.is-right
-                    .box.is-transparent.is-borderless.vc
-                      .title.is-3.is-spaced #{details_title_1}
-                      p.subtitle.is-4 #{details_subtitle_1}
-                  .column.is-6.is-left
-                    .box.is-transparent.is-borderless
-                      img(src='/imgs/slide3.png?1', width='300')
-                .columns
-                  .column.is-6.is-left
-                    .box.is-transparent.is-borderless.vc
-                      .title.is-3.is-spaced #{details_title_2}
-                      p.subtitle.is-4 #{details_subtitle_2}
-                  .column.is-6.is-right
-                    .box.is-transparent.is-borderless
-                      img(src='/imgs/slide1.png?1', width='300')
-                .columns
-                  .column.is-6.is-right
-                    .box.is-transparent.is-borderless.vc
-                      .title.is-3.is-spaced #{details_title_3}
-                      p.subtitle.is-4 #{details_subtitle_3}
-                  .column.is-6.is-left
-                    .box.is-transparent.is-borderless
-                      img(src='/imgs/slide2.png?1', width='300')
-                .columns
-                  .column.is-6.is-left
-                    .box.is-transparent.is-borderless.vc
-                      .title.is-3.is-spaced #{details_title_4}
-                      p.subtitle.is-4 #{details_subtitle_4}
-                  .column.is-6.is-right
-                    .box.is-transparent.is-borderless
-                      img(src='/imgs/slide4.png?1', width='300')
+          .columns
+            .column.is-6
+              .card
+                figure.image.is-4by3
+                  img(src='/imgs/slide3.png?1', width='300')
+                .content
+                  h3.title.is-5 #{details_title_1}
+                  p.subtitle.is-6 #{details_subtitle_1}
+            .column.is-6
+              .card
+                figure.image.is-4by3
+                  img(src='/imgs/slide1.png?1', width='300')
+                .content
+                  h3.title.is-5 #{feature_title_2}
+                  p.subtitle.is-6 #{feature_description_2}
+            .column.is-6
+              .card
+                figure.image.is-4by3
+                  img(src='/imgs/slide2.png?1', width='300')
+                .content
+                  h3.title.is-5 #{feature_title_3}
+                  p.subtitle.is-6 #{feature_description_3}
+            .column.is-6
+              .card
+                figure.image.is-4by3
+                  img(src='/imgs/slide3.png?1', width='300')
+                .content
+                  h3.title.is-5 #{feature_title_3}
+                  p.subtitle.is-6 #{feature_description_3}
       section#roadmap.section
         .container
           header.section-header.has-text-centered
