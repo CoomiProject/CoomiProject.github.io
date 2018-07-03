@@ -6917,7 +6917,7 @@ label.panel-block {
     height: 610px;
     margin: 0 auto; }
     #about .phone-slides .slicks {
-      max-width: 280px;
+      width: 94%;
       top: 50px;
       margin: 0 auto; }
 
