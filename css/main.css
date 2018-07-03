@@ -6902,12 +6902,6 @@ label.panel-block {
     position: absolute;
     box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
     background: linear-gradient(150deg, #9DC73A 15%, #64C65D 50%, #54AA4E 94%); }
-    .MainHero #angles .texture {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      background: url(/imgs/texture.png) no-repeat center center fixed;
-      background-size: cover; }
 
 #about {
   background-color: #fafafa; }
