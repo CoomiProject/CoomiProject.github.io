@@ -122,6 +122,7 @@ $primary-invert: $pink-invert;
     .container {
         .feature-head {
             display: flex;
+            align-items: center;
 
             img {
                 width: 90px;
@@ -131,6 +132,11 @@ $primary-invert: $pink-invert;
             .title {
                 margin-left: 10px;
             }
+        }
+
+        .feature-body {
+            margin-top: 10px;
+            margin-bottom: 20px;
         }
     }
 }
