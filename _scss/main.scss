@@ -87,11 +87,15 @@ $primary-invert: $pink-invert;
         a {
             color: #FBFBFD;
             background-color: #F05B29;
+            margin-top: 20px;
+            border-color: transparent;
+            height: 50px;
         }
 
         .section-header {
             img {
                 width: 200px;
+                margin-bottom: 20px;
             }
         }
     
