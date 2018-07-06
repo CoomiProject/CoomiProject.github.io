@@ -168,3 +168,20 @@ $primary-invert: $pink-invert;
         background-position: center;
     }
 }
+
+#footer {
+    // background-color: #233240;
+
+    // p, .title, .subtitle {
+    //     color: #fafafa;
+    // }
+
+    .content {
+        // a {
+        //     color: #fafafa;
+        // }
+        a:not(:last-child) {
+            margin-right: 10px;
+        }
+    }
+}

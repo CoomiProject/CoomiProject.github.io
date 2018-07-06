@@ -184,29 +184,26 @@ html
                 .timeline-content
                   p.heading #{road_map_time_7}
                   p #{road_map_content_7}
-    footer.footer
+    footer#footer.footer
       .container
-        .columns.is-multiline.is-mobile
-          .column.is-12-mobile.is-4-tablet
-            .closure
-              a.is-inline-block(href='/', title='Gustav')
-                img(src='/imgs/logo.png', alt='coomi', width='112', height='28')
-              p © 2018 Coomi, Inc. 
-          .column.is-12-mobile.is-2-tablet
-          .column.is-12-mobile.is-2-tablet
-          .column.is-12-mobile.is-2-tablet
-          .column.is-12-mobile.is-2-tablet
-            .menu
-              h3.menu-label Connect 
-              ul.menu-list
-                li
-                  a(href='https://twitter.com/?', target='_blank', title='Coomi on Twitter') Twitter
-                li
-                  a(href='https://www.facebook.com/?', target='_blank', title='Coomi on Facebook') Telegram
-                li
-                  a(href='https://www.instagram.com/?', target='_blank', title='Coomi on Instagram') Instagram
-                li
-                  a(href='https://www.linkedin.com/company/?', target='_blank', title='Coomi on LinkedIn') LinkedIn
+          .content.has-text-centered
+            a(href='https://t.me/joinchat/HBKwXkdxLQ4KMk1s9nJg9g' target='_blank')
+              i.fab.fa-weixin
+            a(href='https://twitter.com/tokenpocket' target='_blank')
+              i.fab.fa-twitter.fa-2x
+            a(href='https://t.me/joinchat/HBKwXkdxLQ4KMk1s9nJg9g' target='_blank')
+              i.fab.fa-telegram-plane.fa-2x
+            a(href='https://medium.com/@tokenpocket_jp' target='_blank')
+              i.fab.fa-reddit.fa-2x
+            a(href='https://github.com/tokenpocket' target='_blank')
+              i.fab.fa-github.fa-2x
+          .content.has-text-centered
+            p
+              i.fas.fa-copyright
+              | &nbsp;2018 Coomi, Inc.
+            p
+              i.fas.fa-map-marker-alt
+              | &nbsp;Tokyo, Japan
     script(defer src='https://use.fontawesome.com/releases/v5.0.7/js/all.js')
     script(type='text/javascript', src='https://code.jquery.com/jquery-1.11.0.min.js')
     script(type='text/javascript', src='https://code.jquery.com/jquery-migrate-1.2.1.min.js')
