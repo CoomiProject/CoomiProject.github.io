@@ -6912,17 +6912,9 @@ label.panel-block {
     #about .container .section-header img {
       width: 200px;
       margin-bottom: 20px; }
-    #about .container .phone-slides {
-      background-image: url(/imgs/iPhone.png);
-      background-repeat: no-repeat;
-      background-position: center top;
+    #about .container .slicks {
       max-width: 300px;
-      height: 610px;
       margin: 0 auto; }
-      #about .container .phone-slides .slicks {
-        width: 94%;
-        top: 50px;
-        margin: 0 auto; }
 
 #showcases {
   background-color: #FAFAFA; }

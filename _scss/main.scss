@@ -100,20 +100,10 @@ $primary-invert: $pink-invert;
                 margin-bottom: 20px;
             }
         }
-    
-        .phone-slides {
-            background-image: url(/imgs/iPhone.png);
-            background-repeat: no-repeat;
-            background-position: center top;
+
+        .slicks {
             max-width: 300px;
-            height: 610px;
             margin: 0 auto;
-    
-            .slicks {
-                width: 94%;
-                top: 50px;
-                margin: 0 auto;
-            }
         }
     }
 }
@@ -170,6 +160,10 @@ $primary-invert: $pink-invert;
     .comparison-body {
         background-color: #FFFFFF
     }
+}
+
+#whyus {
+
 }
 
 #roadmap {
