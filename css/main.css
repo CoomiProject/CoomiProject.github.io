@@ -6877,6 +6877,10 @@ label.panel-block {
 .section-header {
   margin-bottom: 2rem; }
 
+.card-box {
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px #363636; }
+
 #about {
   padding-bottom: 200px;
   background: linear-gradient(-45deg, #050F2C, #174790); }
