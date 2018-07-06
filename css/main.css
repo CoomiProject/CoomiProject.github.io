@@ -6894,11 +6894,16 @@ label.panel-block {
 #about {
   background: linear-gradient(-45deg, #050F2C, #174790); }
   #about .container {
-    background: url("/imgs/global.png"); }
+    background-image: url("/imgs/global.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; }
     #about .container .title {
       color: #FFFFFF; }
     #about .container .subtitle {
       color: #FBFBFD; }
+    #about .container a {
+      background-color: #F05B29; }
     #about .container .phone-slides {
       background-image: url(/imgs/iPhone.png);
       background-repeat: no-repeat;

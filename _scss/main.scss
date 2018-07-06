@@ -71,7 +71,10 @@ $primary-invert: $pink-invert;
 #about {
     background: linear-gradient(-45deg, #050F2C, #174790);
     .container {
-        background: url('/imgs/global.png');
+        background-image: url('/imgs/global.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
 
         .title {
             color: #FFFFFF;
