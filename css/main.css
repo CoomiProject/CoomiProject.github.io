@@ -6925,8 +6925,13 @@ label.panel-block {
 
 #showcases {
   background-color: #fafafa; }
-  #showcases .column {
-    align-self: center; }
+  #showcases .container .feature-head {
+    display: flex; }
+    #showcases .container .feature-head img {
+      width: 90px;
+      width: 90px; }
+    #showcases .container .feature-head .title {
+      margin-left: 10px; }
 
 #roadmap {
   background: #FFFFFF; }

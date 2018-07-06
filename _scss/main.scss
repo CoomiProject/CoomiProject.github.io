@@ -118,8 +118,20 @@ $primary-invert: $pink-invert;
 
 #showcases {
     background-color: #fafafa;
-    .column {
-        align-self: center;
+
+    .container {
+        .feature-head {
+            display: flex;
+
+            img {
+                width: 90px;
+                width: 90px;
+            }
+
+            .title {
+                margin-left: 10px;
+            }
+        }
     }
 }
 
