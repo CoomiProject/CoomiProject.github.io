@@ -6904,9 +6904,13 @@ label.panel-block {
       color: #FBFBFD; }
     #about .container a {
       color: #FBFBFD;
-      background-color: #F05B29; }
+      background-color: #F05B29;
+      margin-top: 20px;
+      border-color: transparent;
+      height: 50px; }
     #about .container .section-header img {
-      width: 200px; }
+      width: 200px;
+      margin-bottom: 20px; }
     #about .container .phone-slides {
       background-image: url(/imgs/iPhone.png);
       background-repeat: no-repeat;
@@ -6921,12 +6925,8 @@ label.panel-block {
 
 #showcases {
   background-color: #fafafa; }
-  #showcases .card {
-    background-color: transparent;
-    box-shadow: 0 0 0;
-    text-align: center; }
-    #showcases .card .card-image {
-      margin-bottom: 20px; }
+  #showcases .title {
+    align-self: center; }
 
 #roadmap {
   background: #FFFFFF; }

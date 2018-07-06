@@ -119,14 +119,8 @@ $primary-invert: $pink-invert;
 #showcases {
     background-color: #fafafa;
 
-    .card {
-        background-color: transparent;
-        box-shadow: 0 0 0;
-        text-align: center;
-
-        .card-image {
-            margin-bottom: 20px;
-        }
+    .title {
+        align-self: center;
     }
 }
 
