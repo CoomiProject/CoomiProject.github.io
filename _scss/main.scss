@@ -135,6 +135,10 @@ $primary-invert: $pink-invert;
         display: flex;
     }
 
+    .arrow-down {
+        margin-bottom: 0.75rem
+    }
+
     .comparison-head {
         .column:first-child {
             background-color: #4775C5

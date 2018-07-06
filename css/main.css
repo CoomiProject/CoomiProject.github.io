@@ -6929,6 +6929,8 @@ label.panel-block {
   text-align: center; }
   #comparison .columns {
     display: flex; }
+  #comparison .arrow-down {
+    margin-bottom: 0.75rem; }
   #comparison .comparison-head .column:first-child {
     background-color: #4775C5; }
   #comparison .comparison-head .column:last-child {
