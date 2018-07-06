@@ -6940,6 +6940,9 @@ label.panel-block {
 #roadmap {
   background: linear-gradient(-45deg, #050F2C, #174790); }
   #roadmap .container {
-    background-image: url("/imgs/global.png"); }
+    background-image: url("/imgs/global.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; }
   #roadmap p {
     color: #FAFAFA; }

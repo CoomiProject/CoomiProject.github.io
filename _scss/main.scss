@@ -159,6 +159,9 @@ $primary-invert: $pink-invert;
 
     .container {
         background-image: url('/imgs/global.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
     }
 
     p {
