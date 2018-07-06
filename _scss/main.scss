@@ -117,9 +117,13 @@ $primary-invert: $pink-invert;
 }
 
 #showcases {
-    background-color:#FFFFFF;
+    background-color:#FAFAFA;
 
     .container {
+        margin: 30px;
+        padding: 20px;
+        background-color: #FFFFFF;
+
         .feature-head {
             display: flex;
             align-items: center;

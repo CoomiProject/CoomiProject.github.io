@@ -6924,17 +6924,21 @@ label.panel-block {
         margin: 0 auto; }
 
 #showcases {
-  background-color: #FFFFFF; }
-  #showcases .container .feature-head {
-    display: flex;
-    align-items: center; }
-    #showcases .container .feature-head img {
-      width: 90px; }
-    #showcases .container .feature-head .title {
-      margin-left: 30px; }
-  #showcases .container .feature-body {
-    margin-top: 10px;
-    margin-bottom: 20px; }
+  background-color: #FAFAFA; }
+  #showcases .container {
+    margin: 30px;
+    padding: 20px;
+    background-color: #FFFFFF; }
+    #showcases .container .feature-head {
+      display: flex;
+      align-items: center; }
+      #showcases .container .feature-head img {
+        width: 90px; }
+      #showcases .container .feature-head .title {
+        margin-left: 30px; }
+    #showcases .container .feature-body {
+      margin-top: 10px;
+      margin-bottom: 20px; }
 
 #comparison {
   background-color: #FAFAFA;
