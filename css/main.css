@@ -6892,7 +6892,7 @@ label.panel-block {
   box-shadow: none; }
 
 #about {
-  background-color: linear-gradient(-45deg, #174790, #050F2C);
+  background-color: linear-gradient(-45deg, #050F2C, #174790);
   background-image: url("/imgs/global.png"); }
   #about .title {
     color: #FFFFFF; }
