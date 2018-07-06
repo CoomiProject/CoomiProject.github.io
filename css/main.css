@@ -6924,7 +6924,7 @@ label.panel-block {
         margin: 0 auto; }
 
 #showcases {
-  background-color: #fafafa; }
+  background-color: #FFFFFF; }
   #showcases .container .feature-head {
     display: flex;
     align-items: center; }
@@ -6937,6 +6937,7 @@ label.panel-block {
     margin-bottom: 20px; }
 
 #comparison {
+  background-color: #FAFAFA;
   text-align: center; }
   #comparison .columns {
     display: flex; }
@@ -6946,6 +6947,8 @@ label.panel-block {
     background-color: #F05B29; }
   #comparison .comparison-head .title {
     color: #FBFBFD; }
+  #comparison .comparison-body {
+    background-color: #FFFFFF; }
 
 #roadmap {
   background: #FFFFFF; }

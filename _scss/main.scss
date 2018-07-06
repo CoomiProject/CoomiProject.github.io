@@ -117,7 +117,7 @@ $primary-invert: $pink-invert;
 }
 
 #showcases {
-    background-color: #fafafa;
+    background-color:#FFFFFF;
 
     .container {
         .feature-head {
@@ -141,6 +141,7 @@ $primary-invert: $pink-invert;
 }
 
 #comparison {
+    background-color: #FAFAFA;
     text-align: center;
 
     .columns {
@@ -158,6 +159,10 @@ $primary-invert: $pink-invert;
         .title {
             color: #FBFBFD
         }
+    }
+
+    .comparison-body {
+        background-color: #FFFFFF
     }
 }
 
