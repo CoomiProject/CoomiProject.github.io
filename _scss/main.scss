@@ -69,29 +69,31 @@ $primary-invert: $pink-invert;
 }
 
 #about {
-    background-color: linear-gradient(-45deg, #050F2C, #174790);
-    background-image: url('/imgs/global.png');
+    background: linear-gradient(-45deg, #050F2C, #174790);
+    .container {
+        background: url('/imgs/global.png');
 
-    .title {
-        color: #FFFFFF;
-    }
-
-    .subtitle {
-        color: #FBFBFD;
-    }
-
-    .phone-slides {
-        background-image: url(/imgs/iPhone.png);
-        background-repeat: no-repeat;
-        background-position: center top;
-        max-width: 300px;
-        height: 610px;
-        margin: 0 auto;
-
-        .slicks {
-            width: 94%;
-            top: 50px;
+        .title {
+            color: #FFFFFF;
+        }
+    
+        .subtitle {
+            color: #FBFBFD;
+        }
+    
+        .phone-slides {
+            background-image: url(/imgs/iPhone.png);
+            background-repeat: no-repeat;
+            background-position: center top;
+            max-width: 300px;
+            height: 610px;
             margin: 0 auto;
+    
+            .slicks {
+                width: 94%;
+                top: 50px;
+                margin: 0 auto;
+            }
         }
     }
 }

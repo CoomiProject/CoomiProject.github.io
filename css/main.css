@@ -6892,23 +6892,24 @@ label.panel-block {
   box-shadow: none; }
 
 #about {
-  background-color: linear-gradient(-45deg, #050F2C, #174790);
-  background-image: url("/imgs/global.png"); }
-  #about .title {
-    color: #FFFFFF; }
-  #about .subtitle {
-    color: #FBFBFD; }
-  #about .phone-slides {
-    background-image: url(/imgs/iPhone.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-    max-width: 300px;
-    height: 610px;
-    margin: 0 auto; }
-    #about .phone-slides .slicks {
-      width: 94%;
-      top: 50px;
+  background: linear-gradient(-45deg, #050F2C, #174790); }
+  #about .container {
+    background: url("/imgs/global.png"); }
+    #about .container .title {
+      color: #FFFFFF; }
+    #about .container .subtitle {
+      color: #FBFBFD; }
+    #about .container .phone-slides {
+      background-image: url(/imgs/iPhone.png);
+      background-repeat: no-repeat;
+      background-position: center top;
+      max-width: 300px;
+      height: 610px;
       margin: 0 auto; }
+      #about .container .phone-slides .slicks {
+        width: 94%;
+        top: 50px;
+        margin: 0 auto; }
 
 #showcases {
   background-color: #fafafa; }
