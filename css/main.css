@@ -6939,3 +6939,5 @@ label.panel-block {
 
 #roadmap {
   background: linear-gradient(-45deg, #050F2C, #174790); }
+  #roadmap p {
+    color: #FAFAFA; }
