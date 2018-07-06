@@ -6879,7 +6879,7 @@ label.panel-block {
 
 .card-box {
   border-radius: 5px;
-  box-shadow: 1px 1px 1px 1px #363636; }
+  box-shadow: 0.1px 0.1px 0.1px 0.1px #363636; }
 
 #about {
   padding-bottom: 200px;
