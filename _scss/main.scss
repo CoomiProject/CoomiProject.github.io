@@ -156,6 +156,11 @@ $primary-invert: $pink-invert;
 
 #roadmap {
     background: linear-gradient(-45deg, #050F2C, #174790);
+
+    .container {
+        background-image: url('/imgs/global.png');
+    }
+
     p {
         color: #FAFAFA
     }
