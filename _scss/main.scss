@@ -155,7 +155,7 @@ $primary-invert: $pink-invert;
 }
 
 #roadmap {
-    background: linear-gradient(-45deg, #050F2C, #174790);
+    background: linear-gradient(-45deg, #174790, #050F2C);
 
     p {
         color: #FAFAFA
@@ -177,9 +177,9 @@ $primary-invert: $pink-invert;
     // }
 
     .content {
-        // a {
-        //     color: #fafafa;
-        // }
+        a {
+            color: #fafafa;
+        }
         a:not(:last-child) {
             margin-right: 10px;
         }

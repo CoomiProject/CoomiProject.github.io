@@ -6938,7 +6938,7 @@ label.panel-block {
   padding: 20px; }
 
 #roadmap {
-  background: linear-gradient(-45deg, #050F2C, #174790); }
+  background: linear-gradient(-45deg, #174790, #050F2C); }
   #roadmap p {
     color: #FAFAFA; }
   #roadmap .container {
@@ -6946,6 +6946,9 @@ label.panel-block {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; }
+
+#footer .content a {
+  color: #fafafa; }
 
 #footer .content a:not(:last-child) {
   margin-right: 10px; }
