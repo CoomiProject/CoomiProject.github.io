@@ -44,29 +44,14 @@ $primary-invert: $pink-invert;
 	}
 }
 
-.box.is-borderless, .box.is-squared {
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-}
-
 .section {
     background-color: transparent;
 }
 
-.title:not(:last-child), .subtitle:not(:last-child) {
-    margin-bottom: 1.5rem;
+.subtitle {
+    margin-top: 0;
 }
 
-.title, .subtitle {
-    word-break: break-word;
-}
-
-.box.is-borderless, .box.is-squared {
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-}
 
 #about {
     padding-bottom: 300px;

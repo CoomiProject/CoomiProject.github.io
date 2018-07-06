@@ -6871,25 +6871,11 @@ label.panel-block {
   .vc {
     margin: 180px 0; } }
 
-.box.is-borderless, .box.is-squared {
-  border: none;
-  border-radius: 0;
-  box-shadow: none; }
-
 .section {
   background-color: transparent; }
 
-.title:not(:last-child), .subtitle:not(:last-child) {
-  margin-bottom: 1.5rem; }
-
-.title,
 .subtitle {
-  word-break: break-word; }
-
-.box.is-borderless, .box.is-squared {
-  border: none;
-  border-radius: 0;
-  box-shadow: none; }
+  margin-top: 0; }
 
 #about {
   padding-bottom: 300px;
