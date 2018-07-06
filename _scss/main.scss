@@ -76,16 +76,19 @@ $primary-invert: $pink-invert;
             color: #FBFBFD;
         }
 
-        a {
-            color: #FBFBFD;
-            background-color: #F05B29;
-            margin-top: 20px;
-            border-color: transparent;
-            height: 50px;
-        }
+
 
         .main-buttons {
             display: flex;
+
+            a {
+                color: #FBFBFD;
+                background-color: #F05B29;
+                margin-top: 20px;
+                margin-right: 20px;
+                border-color: transparent;
+                height: 50px;
+            }
         }
 
         .section-header {

@@ -6893,14 +6893,15 @@ label.panel-block {
       color: #FFFFFF; }
     #about .container .subtitle {
       color: #FBFBFD; }
-    #about .container a {
-      color: #FBFBFD;
-      background-color: #F05B29;
-      margin-top: 20px;
-      border-color: transparent;
-      height: 50px; }
     #about .container .main-buttons {
       display: flex; }
+      #about .container .main-buttons a {
+        color: #FBFBFD;
+        background-color: #F05B29;
+        margin-top: 20px;
+        margin-right: 20px;
+        border-color: transparent;
+        height: 50px; }
     #about .container .section-header img {
       width: 200px;
       margin-bottom: 20px; }
