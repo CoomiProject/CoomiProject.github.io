@@ -6936,5 +6936,16 @@ label.panel-block {
     margin-top: 10px;
     margin-bottom: 20px; }
 
+#comparison {
+  text-align: center; }
+  #comparison .columns {
+    display: flex; }
+  #comparison .comparison-head .column:first-child {
+    background-color: #4775C5; }
+  #comparison .comparison-head .column:last-child {
+    background-color: #F05B29; }
+  #comparison .comparison-head .title {
+    color: #FBFBFD; }
+
 #roadmap {
   background: #FFFFFF; }
