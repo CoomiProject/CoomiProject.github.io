@@ -69,10 +69,11 @@ $primary-invert: $pink-invert;
 }
 
 #about {
-    background: linear-gradient(-45deg, #174790, #050F2C);
+    background-color: linear-gradient(-45deg, #174790, #050F2C);
+    background-image: url('/imgs/global.png');
 
     .title {
-        color: #FFFFFF
+        color: #FFFFFF;
     }
 
     .subtitle {
