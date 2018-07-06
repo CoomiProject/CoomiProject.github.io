@@ -6929,7 +6929,7 @@ label.panel-block {
     display: flex; }
     #showcases .container .feature-head img {
       width: 90px;
-      width: 90px; }
+      height: 90px; }
     #showcases .container .feature-head .title {
       margin-left: 10px; }
 
