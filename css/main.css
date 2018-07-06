@@ -6938,7 +6938,8 @@ label.panel-block {
   #comparison .comparison-head .title {
     color: #FBFBFD; }
   #comparison .comparison-body {
-    background-color: #FFFFFF; }
+    background-color: #FFFFFF;
+    align-self: center; }
 
 #whyus img {
   padding: 20px; }
