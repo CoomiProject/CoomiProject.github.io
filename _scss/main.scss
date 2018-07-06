@@ -69,7 +69,9 @@ $primary-invert: $pink-invert;
 }
 
 #about {
+    padding-bottom: 100px;
     background: linear-gradient(-45deg, #050F2C, #174790);
+
     .container {
         background-image: url('/imgs/global.png');
         background-repeat: no-repeat;
@@ -120,7 +122,7 @@ $primary-invert: $pink-invert;
     background-color:#FAFAFA;
 
     .container {
-        margin: 30px;
+        margin-top: -100px;
         padding: 20px;
         background-color: #FFFFFF;
 
