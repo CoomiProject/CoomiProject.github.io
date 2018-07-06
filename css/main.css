@@ -6912,8 +6912,8 @@ label.panel-block {
       display: flex;
       align-items: center; }
       #showcases .container .feature-head img {
-        width: 90px;
-        height: 90px; }
+        max-width: 90px;
+        width: 20%; }
       #showcases .container .feature-head .title {
         margin-left: 30px; }
     #showcases .container .feature-body {

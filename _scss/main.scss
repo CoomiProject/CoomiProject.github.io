@@ -106,8 +106,8 @@ $primary-invert: $pink-invert;
             align-items: center;
 
             img {
-                width: 90px;
-                height: 90px;
+                max-width: 90px;
+                width: 20%;
             }
 
             .title {
