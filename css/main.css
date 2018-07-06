@@ -6946,3 +6946,6 @@ label.panel-block {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; }
+
+#footer .content a:not(:last-child) {
+  margin-right: 10px; }
