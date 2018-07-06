@@ -6903,7 +6903,7 @@ label.panel-block {
       margin: 0 auto; }
 
 #showcases {
-  background-color: #FAFAFA; }
+  background-color: #F4F4F7; }
   #showcases .container {
     margin-top: -200px;
     padding: 50px;
@@ -6921,7 +6921,7 @@ label.panel-block {
       margin-bottom: 20px; }
 
 #comparison {
-  background-color: #FAFAFA;
+  background-color: #F4F4F7;
   text-align: center; }
   #comparison .columns {
     display: flex; }
