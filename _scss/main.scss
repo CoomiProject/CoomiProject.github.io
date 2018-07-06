@@ -88,6 +88,12 @@ $primary-invert: $pink-invert;
             color: #FBFBFD;
             background-color: #F05B29;
         }
+
+        .section-header {
+            img {
+                width: 200px;
+            }
+        }
     
         .phone-slides {
             background-image: url(/imgs/iPhone.png);

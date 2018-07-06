@@ -6905,6 +6905,8 @@ label.panel-block {
     #about .container a {
       color: #FBFBFD;
       background-color: #F05B29; }
+    #about .container .section-header img {
+      width: 200px; }
     #about .container .phone-slides {
       background-image: url(/imgs/iPhone.png);
       background-repeat: no-repeat;
