@@ -6899,6 +6899,8 @@ label.panel-block {
       margin-top: 20px;
       border-color: transparent;
       height: 50px; }
+    #about .container .main-buttons {
+      display: flex; }
     #about .container .section-header img {
       width: 200px;
       margin-bottom: 20px; }
