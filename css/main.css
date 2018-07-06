@@ -6943,8 +6943,10 @@ label.panel-block {
   #comparison .comparison-body {
     background-color: #FFFFFF; }
 
-#whyus img {
-  padding: 20px; }
+#whyus {
+  background-color: #F4F4F7; }
+  #whyus img {
+    padding: 20px; }
 
 #roadmap {
   background: linear-gradient(-45deg, #174790, #050F2C); }
