@@ -6892,7 +6892,7 @@ label.panel-block {
   box-shadow: none; }
 
 #about {
-  padding-bottom: 100px;
+  padding-bottom: 300px;
   background: linear-gradient(-45deg, #050F2C, #174790); }
   #about .container {
     background-image: url("/imgs/global.png");
@@ -6927,8 +6927,8 @@ label.panel-block {
 #showcases {
   background-color: #FAFAFA; }
   #showcases .container {
-    margin-top: -100px;
-    padding: 20px;
+    margin-top: -300px;
+    padding: 80px;
     background-color: #FFFFFF; }
     #showcases .container .feature-head {
       display: flex;
