@@ -138,6 +138,10 @@ $primary-invert: $pink-invert;
     .columns {
         display: flex;
 
+        p {
+            display: inline;
+        }
+
         .column:not(:last-child) {
             border-right-color: whitesmoke;
             border-right-width: 1px;

@@ -6930,6 +6930,8 @@ label.panel-block {
   text-align: center; }
   #painpoint .columns {
     display: flex; }
+    #painpoint .columns p {
+      display: inline; }
     #painpoint .columns .column:not(:last-child) {
       border-right-color: whitesmoke;
       border-right-width: 1px;
