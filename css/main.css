@@ -6934,6 +6934,8 @@ label.panel-block {
     align-items: center; }
   #painpoint .arrow-down {
     margin-bottom: 1rem; }
+    #painpoint .arrow-down img {
+      width: 20px; }
   #painpoint .painpoint-head .column:first-child {
     background-color: #4775C5; }
     #painpoint .painpoint-head .column:first-child p {
