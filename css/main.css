@@ -6929,6 +6929,11 @@ label.panel-block {
 #painpoint {
   background-color: #F4F4F7;
   text-align: center; }
+  #painpoint .section-header {
+    margin-bottom: 1rem; }
+    #painpoint .section-header .title {
+      color: #FBFBFD;
+      margin-bottom: 0.5rem; }
   #painpoint .columns {
     display: flex; }
   #painpoint .arrow-down {
@@ -6941,13 +6946,16 @@ label.panel-block {
     background-color: #4775C5; }
   #painpoint .painpoint-head .column:last-child {
     background-color: #F05B29; }
-  #painpoint .painpoint-head .title {
-    color: #FBFBFD; }
   #painpoint .painpoint-body {
     background-color: #FFFFFF; }
 
 #whyus {
   background-color: #FFFFFF; }
+  #whyus .section-header {
+    margin-bottom: 1rem; }
+    #whyus .section-header .title {
+      color: #FBFBFD;
+      margin-bottom: 0.5rem; }
   #whyus img {
     padding: 20px; }
 
