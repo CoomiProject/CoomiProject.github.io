@@ -140,13 +140,13 @@ $primary-invert: $pink-invert;
 
         .column:not(:last-child) {
             border-right-color: whitesmoke;
-            border-right-width: 2px;
+            border-right-width: 1px;
             border-right-style: solid;
         }
 
         .column:not(:first-child) {
             border-left-color: whitesmoke;
-            border-left-width: 2px;
+            border-left-width: 1px;
             border-left-style: solid;
         }
     }

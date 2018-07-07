@@ -6932,11 +6932,11 @@ label.panel-block {
     display: flex; }
     #painpoint .columns .column:not(:last-child) {
       border-right-color: whitesmoke;
-      border-right-width: 2px;
+      border-right-width: 1px;
       border-right-style: solid; }
     #painpoint .columns .column:not(:first-child) {
       border-left-color: whitesmoke;
-      border-left-width: 2px;
+      border-left-width: 1px;
       border-left-style: solid; }
   #painpoint .painpoint-body {
     align-items: center; }
