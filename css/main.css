@@ -6926,20 +6926,20 @@ label.panel-block {
       margin-top: 10px;
       margin-bottom: 20px; }
 
-#comparison {
+#painpoint {
   background-color: #F4F4F7;
   text-align: center; }
-  #comparison .columns {
+  #painpoint .columns {
     display: flex; }
-  #comparison .arrow-down {
+  #painpoint .arrow-down {
     margin-bottom: 0.75rem; }
-  #comparison .comparison-head .column:first-child {
+  #painpoint .painpoint-head .column:first-child {
     background-color: #4775C5; }
-  #comparison .comparison-head .column:last-child {
+  #painpoint .painpoint-head .column:last-child {
     background-color: #F05B29; }
-  #comparison .comparison-head .title {
+  #painpoint .painpoint-head .title {
     color: #FBFBFD; }
-  #comparison .comparison-body {
+  #painpoint .painpoint-body {
     background-color: #FFFFFF; }
 
 #whyus {
