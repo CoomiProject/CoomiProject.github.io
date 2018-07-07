@@ -6873,6 +6873,10 @@ label.panel-block {
 
 .section {
   background-color: transparent; }
+  .section .section-header {
+    margin-bottom: 2rem; }
+    .section .section-header .title {
+      margin-bottom: 0.5rem; }
 
 .card-box {
   border-radius: 3px; }
@@ -6898,7 +6902,7 @@ label.panel-block {
         margin-right: 20px;
         border-color: transparent;
         height: 50px; }
-    #about .container .section-header img {
+    #about .container img {
       width: 200px;
       margin-bottom: 20px; }
     #about .container .slicks {
@@ -6926,11 +6930,6 @@ label.panel-block {
 #painpoint {
   background-color: #F4F4F7;
   text-align: center; }
-  #painpoint .section-header {
-    margin-bottom: 2rem; }
-    #painpoint .section-header .title {
-      color: #FBFBFD;
-      margin-bottom: 0.5rem; }
   #painpoint .columns {
     display: flex; }
   #painpoint .arrow-down {
@@ -6948,11 +6947,6 @@ label.panel-block {
 
 #whyus {
   background-color: #FFFFFF; }
-  #whyus .section-header {
-    margin-bottom: 2rem; }
-    #whyus .section-header .title {
-      color: #FBFBFD;
-      margin-bottom: 0.5rem; }
   #whyus img {
     padding: 20px; }
 

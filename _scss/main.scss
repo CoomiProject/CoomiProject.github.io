@@ -46,6 +46,14 @@ $primary-invert: $pink-invert;
 
 .section {
     background-color: transparent;
+
+    .section-header {
+        .title {
+            margin-bottom: 0.5rem;
+        }
+
+        margin-bottom: 2rem;
+    }
 }
 
 .card-box {
@@ -84,11 +92,9 @@ $primary-invert: $pink-invert;
             }
         }
 
-        .section-header {
-            img {
-                width: 200px;
-                margin-bottom: 20px;
-            }
+        img {
+            width: 200px;
+            margin-bottom: 20px;
         }
 
         .slicks {
@@ -131,15 +137,6 @@ $primary-invert: $pink-invert;
     background-color: #F4F4F7;
     text-align: center;
 
-    .section-header {
-        .title {
-            color: #FBFBFD;
-            margin-bottom: 0.5rem;
-        }
-
-        margin-bottom: 2rem;
-    }
-
     .columns {
         display: flex;
     }
@@ -172,15 +169,6 @@ $primary-invert: $pink-invert;
 
 #whyus {
     background-color: #FFFFFF;
-
-    .section-header {
-        .title {
-            color: #FBFBFD;
-            margin-bottom: 0.5rem;
-        }
-
-        margin-bottom: 2rem;
-    }
 
     img {
         padding: 20px;
