@@ -6874,9 +6874,6 @@ label.panel-block {
 .section {
   background-color: transparent; }
 
-.section-header {
-  margin-bottom: 2rem; }
-
 .card-box {
   border-radius: 3px; }
 
@@ -6930,7 +6927,7 @@ label.panel-block {
   background-color: #F4F4F7;
   text-align: center; }
   #painpoint .section-header {
-    margin-bottom: 1rem; }
+    margin-bottom: 2rem; }
     #painpoint .section-header .title {
       color: #FBFBFD;
       margin-bottom: 0.5rem; }
@@ -6952,7 +6949,7 @@ label.panel-block {
 #whyus {
   background-color: #FFFFFF; }
   #whyus .section-header {
-    margin-bottom: 1rem; }
+    margin-bottom: 2rem; }
     #whyus .section-header .title {
       color: #FBFBFD;
       margin-bottom: 0.5rem; }
