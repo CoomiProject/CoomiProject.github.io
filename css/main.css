@@ -6874,7 +6874,7 @@ label.panel-block {
 .section {
   background-color: transparent; }
   .section .section-header {
-    margin-bottom: 2rem; }
+    margin-bottom: 3rem; }
     .section .section-header .title {
       margin-bottom: 0.5rem; }
 
@@ -6902,7 +6902,7 @@ label.panel-block {
         margin-right: 20px;
         border-color: transparent;
         height: 50px; }
-    #main .container img {
+    #main .container .column:first-child img {
       width: 200px;
       margin-bottom: 20px; }
     #main .container .slicks {

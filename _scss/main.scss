@@ -52,7 +52,7 @@ $primary-invert: $pink-invert;
             margin-bottom: 0.5rem;
         }
 
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
 }
 
@@ -92,9 +92,11 @@ $primary-invert: $pink-invert;
             }
         }
 
-        img {
-            width: 200px;
-            margin-bottom: 20px;
+        .column:first-child {
+            img {
+                width: 200px;
+                margin-bottom: 20px;
+            }
         }
 
         .slicks {
