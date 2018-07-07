@@ -39,13 +39,13 @@ html
                 img(src='/imgs/logo_main.png')
                 p.title.is-3 #{subtitle}
                 .main-buttons
-                  .columns
-                    .column.is-4
-                      a.button.is-rounded.is-medium(href='assets/whitepaper.pdf') #{white_paper}
-                    .column.is-4
-                      a.button.is-rounded.is-medium(href='assets/presentation.pdf') #{presentation}
-                    .column.is-4
-                      a.button.is-rounded.is-medium(href='/demo') DEMO
+                  .field.has-addons
+                    .control
+                      a.button.is-rounded(href='assets/whitepaper.pdf') #{white_paper}
+                    .control
+                      a.button.is-rounded(href='assets/presentation.pdf') #{presentation}
+                    .control
+                      a.button.is-rounded(href='/demo') DEMO
             .column.is-6.is-vcentered
               .slicks
                 div
