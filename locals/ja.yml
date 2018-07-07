@@ -7,14 +7,42 @@ road_map: ロードマップ
 white_paper: ホワイトペーパー
 language: 言語
 
-about_title_1: 口コミの価値化
-about_content_1: あなたの判断や見解そのものが価値に
-about_title_2: 口コミのサーチエンジン
-about_content_2: あなたの人脈を辿った信頼できる口コミを
-about_title_3: タイムライン
-about_content_3: あなたの判断や見解を世の中に
-about_title_4: マイページ
-about_content_4: あなたのフォロワーや所有通貨の情報が一目瞭然に
+about_title_1: 参与即挖矿，Token激励每个人
+about_content_1: Coomi是个口碑社区，用户把对万物的评价发到Coomi朋友圈，获得奖赏。同时，点赞，转发，收藏等都可以获得赏金。
+about_title_2: 每条值得信任的口碑，都来自每个值得信任的人
+about_content_2: Coomi会神奇般地利用人际关系网，用信任将所有人联系在一起，帮助你发现每条值得信任的口碑。
+about_title_3: 基于AI的口碑搜索引擎
+about_content_3: Coomi是个种类丰富的口碑库，我们用基于网络末梢神经原则的排序机制来给你挖掘最有参考价值的口碑。
+about_title_4: 口碑市场
+about_content_4: 在中国，知名传统口碑网站的推动下，网络口碑市场拥有高达一万亿的市场。在日本，仅仅是餐饮业的网络口碑市场就高达3000亿，并且还在不断扩大中。
+
+painpoint_title: 行业痛点
+painpoint_subtitle: 用户的搜索效率还有很大的提升空间，平台和企业，平台和用户利益分配不公
+
+painpoint1_title: 痛点1：用户搜索，决策效率低
+painpoint2_title: 痛点2：平台和企业、平台和用户利益分配不公
+
+painpoint1_content_1: 这条口碑本身有参考价值吗？
+painpoint1_content_2: 店铺经营口碑太累
+painpoint1_content_3: 平台消差评
+painpoint1_content_4: 想看的品类没有内容
+painpoint1_content_5: HP式的口碑罗列搜的累
+painpoint1_content_6: 刷好评，软文
+painpoint1_content_7: 写这条口碑的人可信吗？
+painpoint1_content_8: 恶意差评
+painpoint1_content_9: 广告干扰
+painpoint2_content_1: 店铺被平台压榨
+painpoint2_content_2: 口碑的变现大头都给平台了
+painpoint2_content_3: 没有写口碑的动力
+painpoint_solution_11: 口碑作者值得信赖
+painpoint_solution_12: 口碑有客观的参考价值
+painpoint_solution_13: 建立平台／企业／用户的公平利益关系
+painpoint_solution_21: 人际关系网
+painpoint_solution_22: 人工智能排序
+painpoint_solution_23: 基于区块链的通证体系
+
+whyus_title: Why US!
+whyus_subtitle: 比起Steem等类似产品，Coomi的用户门槛更低，具有很好的落地性。比起Yelp，大众点评，Retty等产品，Coomi里的更丰富更可靠的口碑，给用户提供更高的价值。
 
 road_map_time_1: 2017年 9-11月
 road_map_content_1: Coomi構想の誕生、チーム結成
