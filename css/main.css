@@ -6891,15 +6891,11 @@ label.panel-block {
     background-position: center; }
     #main .container .title, #main .container .subtitle {
       color: #FBFBFD; }
-    #main .container .main-buttons {
-      display: flex; }
-      #main .container .main-buttons a {
-        color: #FBFBFD;
-        background-color: #F05B29;
-        margin-top: 20px;
-        margin-right: 20px;
-        border-color: transparent;
-        height: 50px; }
+    #main .container .main-buttons a {
+      color: #FBFBFD;
+      background-color: #F05B29;
+      margin-top: 20px;
+      border-color: transparent; }
     #main .container .column:first-child img {
       width: 200px;
       margin-bottom: 20px; }
