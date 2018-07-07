@@ -6878,8 +6878,7 @@ label.panel-block {
   margin-bottom: 2rem; }
 
 .card-box {
-  border-radius: 3px;
-  box-shadow: 0.1px 0.1px 0.1px 0.1px #363636; }
+  border-radius: 3px; }
 
 #about {
   padding-bottom: 200px;
@@ -6944,9 +6943,8 @@ label.panel-block {
     background-color: #FFFFFF; }
 
 #whyus {
-  background-color: #F4F4F7; }
+  background-color: #FFFFFF; }
   #whyus img {
-    background-color: #FFFFFF;
     padding: 20px; }
 
 #roadmap {
