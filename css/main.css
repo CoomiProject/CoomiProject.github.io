@@ -6931,7 +6931,7 @@ label.panel-block {
   #painpoint #painpoint1 p {
     display: inline;
     padding: 2px;
-    line-height: 30px;
+    line-height: 40px;
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
@@ -6939,7 +6939,7 @@ label.panel-block {
   #painpoint #painpoint2 p {
     display: inline;
     padding: 2px;
-    line-height: 30px;
+    line-height: 40px;
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
