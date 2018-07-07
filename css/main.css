@@ -6972,8 +6972,7 @@ label.panel-block {
 #whyus {
   background-color: #FFFFFF; }
   #whyus img {
-    padding: 40px;
-    max-width: 500px; }
+    padding: 40px; }
 
 #roadmap {
   background: linear-gradient(-45deg, #174790, #050F2C); }
