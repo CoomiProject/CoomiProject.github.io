@@ -6933,6 +6933,10 @@ label.panel-block {
     display: flex; }
   #painpoint .arrow-down {
     margin-bottom: 0.75rem; }
+    #painpoint .arrow-down i:first-child {
+      color: #174790; }
+    #painpoint .arrow-down i:last-child {
+      color: #F05B29; }
   #painpoint .painpoint-head .column:first-child {
     background-color: #4775C5; }
   #painpoint .painpoint-head .column:last-child {

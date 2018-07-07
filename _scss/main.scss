@@ -140,7 +140,15 @@ $primary-invert: $pink-invert;
     }
 
     .arrow-down {
-        margin-bottom: 0.75rem
+        margin-bottom: 0.75rem;
+
+        i:first-child {
+            color: #174790
+        }
+
+        i:last-child {
+            color: #F05B29
+        }
     }
 
     .painpoint-head {
