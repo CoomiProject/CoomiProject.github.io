@@ -6866,7 +6866,7 @@ label.panel-block {
         text-align: right; }
 
 @media screen and (min-width: 769px) {
-  .about {
+  .main {
     padding: 70px 200px; }
   .vc {
     margin: 180px 0; } }
@@ -6881,49 +6881,49 @@ label.panel-block {
 .card-box {
   border-radius: 3px; }
 
-#about {
+#main {
   padding-bottom: 200px;
   background: linear-gradient(-45deg, #050F2C, #174790); }
-  #about .container {
+  #main .container {
     background-image: url("/imgs/global.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; }
-    #about .container .title {
+    #main .container .title {
       color: #FFFFFF; }
-    #about .container .subtitle {
+    #main .container .subtitle {
       color: #FBFBFD; }
-    #about .container .main-buttons {
+    #main .container .main-buttons {
       display: flex; }
-      #about .container .main-buttons a {
+      #main .container .main-buttons a {
         color: #FBFBFD;
         background-color: #F05B29;
         margin-top: 20px;
         margin-right: 20px;
         border-color: transparent;
         height: 50px; }
-    #about .container img {
+    #main .container img {
       width: 200px;
       margin-bottom: 20px; }
-    #about .container .slicks {
+    #main .container .slicks {
       max-width: 300px;
       margin: 0 auto; }
 
-#showcases {
+#about {
   background-color: #F4F4F7; }
-  #showcases .container {
+  #about .container {
     margin-top: -200px;
     padding: 50px;
     background-color: #FFFFFF; }
-    #showcases .container .feature-head {
+    #about .container .feature-head {
       display: flex;
       align-items: center; }
-      #showcases .container .feature-head img {
+      #about .container .feature-head img {
         max-width: 90px;
         width: 20%; }
-      #showcases .container .feature-head .title {
+      #about .container .feature-head .title {
         margin-left: 30px; }
-    #showcases .container .feature-body {
+    #about .container .feature-body {
       margin-top: 10px;
       margin-bottom: 20px; }
 
@@ -6937,8 +6937,12 @@ label.panel-block {
     margin-bottom: 0.75rem; }
     #painpoint .arrow-down i:first-child {
       color: #174790; }
+      #painpoint .arrow-down i:first-child p {
+        color: #FAFAFA; }
     #painpoint .arrow-down i:last-child {
       color: #F05B29; }
+      #painpoint .arrow-down i:last-child p {
+        color: #FAFAFA; }
   #painpoint .painpoint-head .column:first-child {
     background-color: #4775C5; }
   #painpoint .painpoint-head .column:last-child {
