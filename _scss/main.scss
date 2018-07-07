@@ -137,6 +137,18 @@ $primary-invert: $pink-invert;
 
     .columns {
         display: flex;
+
+        .column:not(:last-child) {
+            border-right-color: whitesmoke;
+            border-right-width: 2px;
+            border-right-style: solid;
+        }
+
+        .column:not(:first-child) {
+            border-left-color: whitesmoke;
+            border-left-width: 2px;
+            border-left-style: solid;
+        }
     }
 
     .painpoint-body {
