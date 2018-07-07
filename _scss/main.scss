@@ -135,25 +135,25 @@ $primary-invert: $pink-invert;
     background-color: #F4F4F7;
     text-align: center;
 
-    .painpoint-body:first-child {
+    #painpoint1 {
         p {
             display: inline;
             padding: 10px;
             border-style: solid;
             border-radius: 10px;
             border-width: 1px;
+            border-color: #4775C5;
         }
+    }
 
-        .column:first-child {
-            p {
-                border-color: #4775C5;
-            }
-        }
-
-        .column:last-child {
-            p {
-                border-color: #F05B29;
-            }
+    #painpoint2 {
+        p {
+            display: inline;
+            padding: 10px;
+            border-style: solid;
+            border-radius: 10px;
+            border-width: 1px;
+            border-color: #F05B29;
         }
     }
 

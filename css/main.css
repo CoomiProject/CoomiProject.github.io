@@ -6928,15 +6928,19 @@ label.panel-block {
 #painpoint {
   background-color: #F4F4F7;
   text-align: center; }
-  #painpoint .painpoint-body:first-child p {
+  #painpoint #painpoint1 p {
     display: inline;
     padding: 10px;
     border-style: solid;
     border-radius: 10px;
-    border-width: 1px; }
-  #painpoint .painpoint-body:first-child .column:first-child p {
+    border-width: 1px;
     border-color: #4775C5; }
-  #painpoint .painpoint-body:first-child .column:last-child p {
+  #painpoint #painpoint2 p {
+    display: inline;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
     border-color: #F05B29; }
   #painpoint .columns {
     display: flex; }
