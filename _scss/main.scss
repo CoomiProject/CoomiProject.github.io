@@ -71,11 +71,7 @@ $primary-invert: $pink-invert;
         background-attachment: fixed;
         background-position: center;
 
-        .title {
-            color: #FFFFFF;
-        }
-    
-        .subtitle {
+        .title, .subtitle {
             color: #FBFBFD;
         }
 
@@ -147,27 +143,27 @@ $primary-invert: $pink-invert;
     .arrow-down {
         margin-bottom: 0.75rem;
 
-        i:first-child {
+        .arrow-down:first-child {
             color: #174790;
-            p {
-                color: #FAFAFA;
-            }
         }
 
-        i:last-child {
+        .arrow-down:last-child {
             color: #F05B29;
-            p {
-                color: #FAFAFA;
-            }
         }
     }
 
     .painpoint-head {
         .column:first-child {
-            background-color: #4775C5
+            background-color: #4775C5;
+            p {
+                color: #FAFAFA;
+            }
         }
         .column:last-child {
-            background-color: #F05B29
+            background-color: #F05B29;
+            p {
+                color: #FAFAFA;
+            }
         }
     }
 

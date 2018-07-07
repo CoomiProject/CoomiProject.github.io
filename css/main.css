@@ -6889,9 +6889,7 @@ label.panel-block {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; }
-    #main .container .title {
-      color: #FFFFFF; }
-    #main .container .subtitle {
+    #main .container .title, #main .container .subtitle {
       color: #FBFBFD; }
     #main .container .main-buttons {
       display: flex; }
@@ -6935,18 +6933,18 @@ label.panel-block {
     align-items: center; }
   #painpoint .arrow-down {
     margin-bottom: 0.75rem; }
-    #painpoint .arrow-down i:first-child {
+    #painpoint .arrow-down .arrow-down:first-child {
       color: #174790; }
-      #painpoint .arrow-down i:first-child p {
-        color: #FAFAFA; }
-    #painpoint .arrow-down i:last-child {
+    #painpoint .arrow-down .arrow-down:last-child {
       color: #F05B29; }
-      #painpoint .arrow-down i:last-child p {
-        color: #FAFAFA; }
   #painpoint .painpoint-head .column:first-child {
     background-color: #4775C5; }
+    #painpoint .painpoint-head .column:first-child p {
+      color: #FAFAFA; }
   #painpoint .painpoint-head .column:last-child {
     background-color: #F05B29; }
+    #painpoint .painpoint-head .column:last-child p {
+      color: #FAFAFA; }
   #painpoint .painpoint-body {
     background-color: #FFFFFF; }
 
