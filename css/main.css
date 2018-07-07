@@ -6929,7 +6929,8 @@ label.panel-block {
   background-color: #F4F4F7;
   text-align: center; }
   #painpoint .columns {
-    display: flex;
+    display: flex; }
+  #painpoint .painpoint-body {
     align-items: center; }
   #painpoint .arrow-down {
     margin-bottom: 1rem; }
