@@ -138,21 +138,13 @@ $primary-invert: $pink-invert;
     .columns {
         display: flex;
     }
-    
+
     .painpoint-body {
         align-items: center;
     }
 
     .arrow-down {
         margin-bottom: 1rem;
-    }
-
-    .arrow-down:first-child {
-        color: #174790;
-    }
-
-    .arrow-down:last-child {
-        color: #F05B29;
     }
 
     .painpoint-head {
