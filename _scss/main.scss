@@ -138,22 +138,20 @@ $primary-invert: $pink-invert;
     #painpoint1 {
         p {
             display: inline;
-            padding: 10px;
-            border-style: solid;
+            color: white;
+            background: #4775C5;
+            padding: 2px;
             border-radius: 10px;
-            border-width: 1px;
-            border-color: #4775C5;
         }
     }
 
     #painpoint2 {
         p {
             display: inline;
-            padding: 10px;
-            border-style: solid;
+            color: white;
+            background: #F05B29;
+            padding: 2px;
             border-radius: 10px;
-            border-width: 1px;
-            border-color: #F05B29;
         }
     }
 
