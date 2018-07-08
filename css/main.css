@@ -6984,3 +6984,6 @@ label.panel-block {
 
 #footer .content a:not(:last-child) {
   margin-right: 10px; }
+
+#footer .content .wechat {
+  widows: 90px; }

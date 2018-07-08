@@ -234,5 +234,10 @@ $primary-invert: $pink-invert;
         a:not(:last-child) {
             margin-right: 10px;
         }
+
+        .wechat {
+            widows: 90px;
+
+        }
     }
 }
