@@ -24,27 +24,25 @@ document.addEventListener('DOMContentLoaded', function () {
         // Toggle the class on both the "navbar-burger" and the "navbar-menu"
         $el.classList.toggle('is-active');
         $target.classList.toggle('is-active');
-
       });
     });
   }
 
-  var dropdown = document.querySelector('.dropdown');
+  var dropdown = document.querySelector('.has-dropdown');
   dropdown.addEventListener('click', function(event) {
     event.stopPropagation();
     dropdown.classList.toggle('is-active');
   });
-
 });
 
-$(document).ready(function(){
-  $('.slicks').slick({
+$(document).ready(function () {
+  $('.demo').slick({
     autoplay: true,
     autoplaySpeed: 2000,
     dots: false,
     arrows: false,
     infinite: true,
     speed: 300,
-    slidesToShow: 1
+    slidesToShow: 1,
   });
 });
