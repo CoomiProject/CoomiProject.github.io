@@ -44,22 +44,23 @@ html
                       a.button.is-rounded(href='assets/whitepaper.pdf') #{white_paper}
                     .control
                       a.button.is-rounded(href='assets/presentation.pdf') #{presentation}
-                    .control
-                      a.button.is-rounded(href='/demo') DEMO
+                    //- .control
+                    //-   a.button.is-rounded(href='/demo') DEMO
             .column.is-6.is-vcentered
               .slicks
-                div
-                  img(src='/imgs/slide1.png?1')
-                div
-                  img(src='/imgs/slide2.png?1')
-                div
-                  img(src='/imgs/slide3.png?1')
-                div
-                  img(src='/imgs/slide4.png?1')
-                div
-                  img(src='/imgs/slide5.png?1')
-                div
-                  img(src='/imgs/slide6.png?1')              
+                iframe(src="/demo", frameborder='0', height='568', width='320')
+                //- div
+                //-   img(src='/imgs/slide1.png?1')
+                //- div
+                //-   img(src='/imgs/slide2.png?1')
+                //- div
+                //-   img(src='/imgs/slide3.png?1')
+                //- div
+                //-   img(src='/imgs/slide4.png?1')
+                //- div
+                //-   img(src='/imgs/slide5.png?1')
+                //- div
+                //-   img(src='/imgs/slide6.png?1')              
       section#about.section
         .container.card-box
           .columns
