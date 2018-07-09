@@ -6898,12 +6898,13 @@ label.panel-block {
     #main .container .column:first-child img {
       width: 200px;
       margin-bottom: 20px; }
-    #main .container .slicks {
-      max-width: 300px;
+    #main .container .demo {
+      max-width: 350px;
+      height: 600px;
       margin: 0 auto; }
-      #main .container .slicks iframe {
+      #main .container .demo iframe {
         width: 100%;
-        height: 600px; }
+        height: 100%; }
 
 #about {
   background-color: #F4F4F7; }
