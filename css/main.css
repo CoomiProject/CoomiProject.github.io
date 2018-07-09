@@ -6900,11 +6900,9 @@ label.panel-block {
       margin-bottom: 20px; }
     #main .container .demo {
       max-width: 350px;
-      height: 600px;
       margin: 0 auto; }
       #main .container .demo iframe {
-        width: 100%;
-        height: 100%; }
+        width: 100%; }
 
 #about {
   background-color: #F4F4F7; }
