@@ -6891,10 +6891,14 @@ label.panel-block {
     background-position: center; }
     #main .container .title, #main .container .subtitle {
       color: #FBFBFD; }
-    #main .container .main-buttons a {
-      color: #FBFBFD;
-      background-color: #F05B29;
-      margin-top: 20px; }
+    #main .container .main-buttons {
+      margin-top: 40px;
+      margin-left: 10px; }
+      #main .container .main-buttons a {
+        color: #FBFBFD;
+        background-color: #F05B29;
+        border-color: transparent;
+        margin: 5px; }
     #main .container .column:first-child img {
       width: 200px;
       margin-bottom: 20px; }

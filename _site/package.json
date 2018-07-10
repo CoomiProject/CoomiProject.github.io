@@ -1,0 +1,31 @@
+{
+  "name": "coomiproject.github.io",
+  "version": "1.0.0",
+  "description": "https://coomiproject.github.io/",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build-css": "node-sass --include-path scss _scss/main.scss css/main.css",
+    "build-html": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoomiProject/CoomiProject.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoomiProject/CoomiProject.github.io/issues"
+  },
+  "homepage": "https://github.com/CoomiProject/CoomiProject.github.io#readme",
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "bulma-extensions": "^2.2.1",
+    "fs": "0.0.1-security",
+    "js-yaml": "^3.12.0",
+    "node-sass": "^4.9.0",
+    "pug": "^2.0.3"
+  }
+}

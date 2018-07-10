@@ -1,0 +1,215 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title #{title}
+    link(rel='stylesheet', href='/css/main.css?1')
+    link(rel='stylesheet', type='text/css', href='https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css')
+  body.has-navbar-fixed-top
+    header
+      nav.navbar.is-fixed-top.has-shadow
+        .container
+          .navbar-brand
+            a.navbar-item(href='#main')
+              img(src='/imgs/logo.png', alt='coomi', width='112', height='28')
+            .navbar-burger.burger(data-target='navbar-menu')
+              span
+              span
+              span
+          #navbar-menu.navbar-menu
+            .navbar-end
+              a.navbar-item(href='#main') #{white_paper}
+              a.navbar-item(href='#painpoint') #{painpoint}
+              a.navbar-item(href='#whyus') #{whyus}
+              a.navbar-item(href='#roadmap') #{road_map}
+              .navbar-item.has-dropdown
+                a.navbar-link #{language}
+                .navbar-dropdown
+                  a.navbar-item(href="/zh") 中文
+                  a.navbar-item(href="/en") English
+                  a.navbar-item(href="/ja") 日本語
+    main
+      section#main.section.is-hero
+        .container
+          .columns.is-vcentered
+            .column.is-6
+              .section-header
+                img(src='/imgs/logo_main.png')
+                p.title.is-3 #{subtitle}
+                .main-buttons
+                  a.button.is-rounded.is-medium(href='assets/whitepaper.pdf') #{white_paper}
+                  a.button.is-rounded.is-medium(href='assets/presentation.pdf') #{presentation}
+                  a.button.is-rounded.is-medium(href='http://coomi.io/demo') DEMO
+            .column.is-6.is-vcentered
+              .demo
+                //- iframe(src="demo", frameborder='0', height='568', width='320')
+                div
+                  img(src='/imgs/slide1.png?1')
+                div
+                  img(src='/imgs/slide2.png?1')
+                div
+                  img(src='/imgs/slide3.png?1')
+                div
+                  img(src='/imgs/slide4.png?1')
+                div
+                  img(src='/imgs/slide5.png?1')
+                div
+                  img(src='/imgs/slide6.png?1')              
+      section#about.section
+        .container.card-box
+          .columns
+            .column.is-6
+              .feature-head
+                img.feature(src='/imgs/feature1.png?1')
+                p.title.is-5 #{about_title_1}
+              .feature-body
+                p.is-6 #{about_content_1}
+            .column.is-6
+              .feature-head
+                img.feature(src='/imgs/feature2.png?1')
+                p.title.is-5 #{about_title_2}
+              .feature-body
+                p.is-6 #{about_content_2}
+          .columns
+            .column.is-6
+              .feature-head
+                img.feature(src='/imgs/feature3.png?1')
+                p.title.is-5 #{about_title_3}
+              .feature-body
+                p.is-6 #{about_content_3}
+            .column.is-6
+              .feature-head
+                img.feature(src='/imgs/feature4.png?1')
+                p.title.is-5 #{about_title_4}
+              .feature-body
+                p.is-6 #{about_content_4}
+      section#painpoint.section
+        .container
+          .section-header.has-text-centered
+            p.title.is-spaced.is-3 #{painpoint_title}
+          .section-body
+            .columns.painpoint-head.card-box
+              .column.is-6
+                p.subtitle.is-6 #{painpoint1_title}
+              .column.is-6
+                p.subtitle.is-6 #{painpoint2_title}
+            .columns.painpoint-body.card-box
+              #painpoint1.column.is-6
+                p #{painpoint1_content_1}
+                p #{painpoint1_content_2}
+                p #{painpoint1_content_3}
+                p #{painpoint1_content_4}
+                p #{painpoint1_content_5}
+                p #{painpoint1_content_6}
+                p #{painpoint1_content_7}
+                p #{painpoint1_content_8}
+                p #{painpoint1_content_9}
+              #painpoint2.column.is-6
+                p #{painpoint2_content_1}
+                p #{painpoint2_content_2}
+                p #{painpoint2_content_3}
+            .arrow-down
+              img(src='/imgs/blue-arrow-down.png')
+              p #{painpoint_solution_title1}
+            .columns.painpoint-body.card-box
+              .column.is-4
+                p #{painpoint_solution_11}
+              .column.is-4
+                p #{painpoint_solution_12}
+              .column.is-4
+                p #{painpoint_solution_13}
+            .arrow-down
+              img(src='/imgs/red-arrow-down.png')
+              p #{painpoint_solution_title2}
+            .columns.painpoint-body.card-box
+              .column.is-4
+                p #{painpoint_solution_21}
+              .column.is-4
+                p #{painpoint_solution_22}
+              .column.is-4
+                p #{painpoint_solution_23}
+      section#whyus.section
+        .container
+          .section-header.has-text-centered
+            p.title.is-spaced.is-3 #{whyus_title}
+          .section-body.has-text-centered
+            .columns
+              .column.is-6
+                img(src='imgs/whyus1.png')
+              .column.is-6
+                img(src='imgs/whyus2.png')
+      section#roadmap.section
+        .container
+          .section-header.has-text-centered
+            p.title.is-3 #{road_map}
+          .section-body
+            .timeline.is-centered
+              header.timeline-header
+                span.tag 2017
+              .timeline-item
+                .timeline-marker
+                .timeline-content
+                  p.heading #{road_map_time_1}
+                  p #{road_map_content_1}
+              header.timeline-header
+                span.tag 2018
+              .timeline-item
+                .timeline-marker
+                .timeline-content
+                  p.heading #{road_map_time_2}
+                  p #{road_map_content_2}
+              .timeline-item
+                .timeline-marker
+                .timeline-content
+                  p.heading #{road_map_time_3}
+                  p #{road_map_content_3}
+              .timeline-item
+                .timeline-marker
+                .timeline-content
+                  p.heading #{road_map_time_4}
+                  p #{road_map_content_4}
+              .timeline-item
+                .timeline-marker
+                .timeline-content
+                  p.heading #{road_map_time_5}
+                  p #{road_map_content_5}
+              .timeline-item
+                .timeline-marker
+                .timeline-content
+                  p.heading #{road_map_time_6}
+                  p #{road_map_content_6}
+              header.timeline-header
+                span.tag 2019
+              .timeline-item
+                .timeline-marker
+                .timeline-content
+                  p.heading #{road_map_time_7}
+                  p #{road_map_content_7}
+    footer#footer.footer
+      .container
+          .content.has-text-centered
+            img.wechat(src='/imgs/wechat_qr.png')              
+          .content.has-text-centered
+            a(href='https://twitter.com/Coomi6' target='_blank')
+              i.fab.fa-twitter.fa-2x
+            a(href='https://t.me/joinchat/H1OAa1MwZfpkRnsMKFZDRQ' target='_blank')
+              i.fab.fa-telegram-plane.fa-2x
+            a(href='https://www.reddit.com/r/Coomi' target='_blank')
+              i.fab.fa-reddit.fa-2x
+            a(href='https://github.com/coomiproject' target='_blank')
+              i.fab.fa-github.fa-2x
+          .content.has-text-centered
+            p
+              i.fas.fa-copyright
+              | &nbsp;2018 Coomi, Inc.
+            p
+              i.fas.fa-map-marker-alt
+              | &nbsp;Tokyo, Japan
+    script(defer src='https://use.fontawesome.com/releases/v5.0.7/js/all.js')
+    script(type='text/javascript', src='https://code.jquery.com/jquery-1.11.0.min.js')
+    script(type='text/javascript', src='https://code.jquery.com/jquery-migrate-1.2.1.min.js')
+    script(type='text/javascript', src='https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js')
+    script(type='text/javascript', src='/lib/smooth-scroll.min.js')
+    script(type='text/javascript', src='/lib/main.js')

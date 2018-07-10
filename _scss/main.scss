@@ -76,10 +76,14 @@ $primary-invert: $pink-invert;
         }
 
         .main-buttons {
+            margin-top: 40px;
+            margin-left: 10px;
+
             a {
                 color: #FBFBFD;
                 background-color: #F05B29;
-                margin-top: 20px;
+                border-color: transparent;
+                margin: 5px;
             }
         }
 

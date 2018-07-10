@@ -39,12 +39,9 @@ html
                 img(src='/imgs/logo_main.png')
                 p.title.is-3 #{subtitle}
                 .main-buttons
-                  .control
-                    a.button.is-rounded(href='assets/whitepaper.pdf') #{white_paper}
-                  .control
-                    a.button.is-rounded(href='assets/presentation.pdf') #{presentation}
-                  .control
-                    a.button.is-rounded(href='http://coomi.io/demo') DEMO
+                  a.button.is-rounded.is-medium(href='assets/whitepaper.pdf') #{white_paper}
+                  a.button.is-rounded.is-medium(href='assets/presentation.pdf') #{presentation}
+                  a.button.is-rounded.is-medium(href='http://coomi.io/demo') DEMO
             .column.is-6.is-vcentered
               .demo
                 //- iframe(src="demo", frameborder='0', height='568', width='320')
