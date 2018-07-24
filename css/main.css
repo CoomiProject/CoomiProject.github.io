@@ -6937,14 +6937,6 @@ label.panel-block {
     border-width: 1px;
     border-radius: 10px;
     border-color: #4775C5; }
-  #painpoint #painpoint2 p {
-    display: inline;
-    padding: 2px;
-    line-height: 35px;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 10px;
-    border-color: #F05B29; }
   #painpoint .columns {
     display: flex; }
     #painpoint .columns .column:not(:last-child) {
@@ -6959,13 +6951,9 @@ label.panel-block {
     margin-bottom: 1rem; }
     #painpoint .arrow-down img {
       width: 20px; }
-  #painpoint .painpoint-head .column:first-child {
+  #painpoint .painpoint-head .column {
     background-color: #4775C5; }
-    #painpoint .painpoint-head .column:first-child p {
-      color: #FAFAFA; }
-  #painpoint .painpoint-head .column:last-child {
-    background-color: #F05B29; }
-    #painpoint .painpoint-head .column:last-child p {
+    #painpoint .painpoint-head .column p {
       color: #FAFAFA; }
   #painpoint .painpoint-body {
     background-color: #FFFFFF; }
