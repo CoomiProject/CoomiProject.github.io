@@ -14,24 +14,24 @@ about_title_2: Reliable contents come from reliable people
 about_content_2: Coomi connects people by social network and helps you discover reliable contents
 about_title_3: AI-based WOM search engine
 about_content_3: Coomi is a large platform and the most valuable contents are recommended to you by neural network ranking algorithm
-about_title_4: WOM market
-about_content_4: In China, the online WOF market has a value above one trillion (RMB); in Japan, the WOF market for restaurants is estimated above 300 billion (Yen), and keeps growing.
+about_title_4: Spend 30 min searching for a restaurant? In Coomi it only takes 30 s.
+about_content_4: From our survey, it takes more than 30 min for user to search and read comments. Our job is to make it in 30 s!
 
 painpoint_title: Weak Points
-painpoint1_title: 口碑缺乏可信度
-painpoint2_title: 口碑缺乏主观的参考价值
-painpoint3_title: 口碑缺乏客观的参考价值
-painpoint4_title: 平台与用户，平台与商家之间不公平的关系
-painpoint1_content_1: What's the value of the contents?
-painpoint1_content_2: Difficulty in feedback management
-painpoint1_content_3: How to deal with negative comments?
-painpoint1_content_4: Lack of contents
-painpoint1_content_5: HP-based ranking of contents
-painpoint1_content_6: Click farming
-painpoint1_content_7: Is the author reliable?
-painpoint1_content_8: Intentional negative comments
-painpoint1_content_9: Ads
-painpoint1_content_0: Authority of platform
+painpoint1_title: Lack of reliability
+painpoint2_title: Lack of subjective value
+painpoint3_title: Lack of objective value
+painpoint4_title: The unfairness among user, merchant and platform
+painpoint1_content_1: Is the author reliable?
+painpoint1_content_2: It doesn't match! I like spicy food, but it recommends sweet food. 
+painpoint1_content_3: Click farming
+painpoint1_content_4: Some comments are of zero value for reference.
+painpoint1_content_5: Intentional negative comments
+painpoint1_content_6: Ads on top
+painpoint1_content_7: Lost by too many comments
+painpoint1_content_8: Negative comments are deleted by the platform. Lack of objectivity.
+painpoint1_content_9: No reward from writing comments or the platform has exclusive benefits
+painpoint1_content_0: Comments and restaurant pages are easily deleted by the platform
 painpoint_solution_title: Solutions
 painpoint_solution_1: Blockchain-based Token economy
 painpoint_solution_2: Social network
